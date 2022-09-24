@@ -1,7 +1,6 @@
 header {
   display: flex;
-  background-color: powderblue;
-  background-image: url("images\white_pattern.png");
+  background-image: url("../images/white_pattern.png");
 }
 
 header img {
@@ -23,7 +22,8 @@ font-size: xx-large;
 }
 
 footer {
+font-size: smaller;
 width: auto;
-background-color: powderblue;
+background-image: url("../images/white_pattern.png");
 padding: 15px;
 }
