@@ -4,6 +4,22 @@ header {
   margin: 25px 100px 25px;
 }
 
+header img {
+    width: 50%
+}
+
 body {
-  color:aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+
+  text-align: right;
+  padding: 10px;
+}
+
+footer {
+  width: auto;
+  background-color: powderblue;
+  padding: 15px;
 }
