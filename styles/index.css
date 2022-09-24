@@ -1,25 +1,29 @@
 header {
   display: flex;
   background-color: powderblue;
-  margin: 25px 100px 25px;
+  background-image: url("images\white_pattern.png");
 }
 
 header img {
-    width: 50%
+  width: 15%;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+background-color:ivory;
 }
 
 h1 {
-
-  text-align: right;
-  padding: 10px;
+text-align: left;
+padding: 10px;
+margin-top: auto;
+font-size: xx-large;
 }
 
 footer {
-  width: auto;
-  background-color: powderblue;
-  padding: 15px;
+width: auto;
+background-color: powderblue;
+padding: 15px;
 }
