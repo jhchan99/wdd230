@@ -1,0 +1,21 @@
+    header {
+        font-family: 'Bungee Spice', cursive;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        width: 100%;
+    }
+    
+    body {
+        font-family: 'Barlow', sans-serif;
+        inline-size: 20em;
+    }
+    
+    footer {
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+

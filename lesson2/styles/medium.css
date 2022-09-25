@@ -1,0 +1,21 @@
+@media only screen and (min-widt: 37.5em) {
+        
+    header{
+        word-wrap: 100;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body {
+        background-color: cadetblue;
+        word-wrap: 100;
+    }
+
+    footer {
+        color:brown;
+        word-wrap: 100;
+    }
+
+}
