@@ -1,18 +1,28 @@
     header {
+        text-align: center;
         font-family: 'Bungee Spice', cursive;
     }
 
     main {
+        display: grid;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         grid-template-columns: 1fr;
     }
 
     img {
         width: 100%;
+        margin: 10px;
     }
     
     body {
         font-family: 'Barlow', sans-serif;
-        inline-size: 20em;
+    }
+
+    section {
+        margin-left: 8px;
+        margin-right: 8px;
     }
     
     footer {
