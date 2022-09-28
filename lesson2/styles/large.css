@@ -1,16 +1,10 @@
 @media only screen and (min-width: 60em) {
-        
-    header{
-        word-wrap: 100;
-    }
-
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
     footer {
         color:brown;
-        word-wrap: 100;
     }
 
 }
