@@ -1,0 +1,150 @@
+    body {
+        background-color: #E8E9EB;
+    }
+    
+    header {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        color: #E8E9EB;
+        font-family: 'Noto Sans Display', sans-serif;
+        background-color: #A5402D;
+        border-radius: 5rem 0rem 5rem 0rem;
+        margin: 1em;
+        padding:1rem;
+    }
+
+    .headings {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .websiteLogo {
+        width: 100px;
+    }
+
+    nav {
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 760px;
+        
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    a:hover {
+        background-color: #E8E9EB;
+        color:#A5402D
+    }
+
+    main {
+        padding-left: 1em;
+        margin-left: 1em;
+        margin-right: auto;
+        grid-template-columns: 1fr;
+    }
+
+    
+    .mainStuff {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        gap: 10px;
+    }
+
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        background-color: lightgrey;
+    }
+
+
+
+    .linkLogos {
+        width: 150px;
+    }
+
+    img {
+        width: 25%;
+        margin: 10px;
+    }
+    
+    body {
+        font-family: 'Noto Serif', serif;
+    }
+
+    section {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    footer {
+        color: #E8E9EB;
+        font-family: 'Noto Sans Display', sans-serif;
+        background-color: #A5402D;
+        border-radius: 5rem 0rem 5rem 0rem;
+        margin: 1em;
+        padding:1rem;
+    }
+
+
+
+    /* Small/Phone View ***************/
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "🍔 ";
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
