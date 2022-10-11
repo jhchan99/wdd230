@@ -15,27 +15,29 @@
 </head>
 <body>
     <header>
-        <picture class="websiteLogo"><img src="images/placeholder.png" alt="logo for chamber of commerce of kennewick"></picture>
-        <section class="headings">
-            <h1>Timbuktu</h1>
-            <div>
-                <p>Chamber of Commerce</p>
+        <section class="headertop">
+            <picture><img  class="websiteLogo" src="images/placeholder.png" alt="logo for chamber of commerce of kennewick"></picture>
+            <section class="headings">
+                <h1>Timbuktu</h1>
+                <div>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </section>
+            <nav class="navigation">
+                <ul>
+                    <li><a class="ham" href="#">Menu</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="linkLogos">
+                <a href="https://www.facebook.com/"><img src="images/placeholder.png" alt="facebook logo"></a>
+                <a href="https://www.linkedin.com/feed/"><img src="images/placeholder.png" alt="linkedin logo"></a>
             </div>
         </section>
-        <nav class="navigation">
-            <ul>
-                <li><a class="ham" href="#">Menu</a></li>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="linkLogos">
-            <a href="https://www.facebook.com/"><img src="images/placeholder.png" alt="facebook logo"></a>
-            <a href="https://www.linkedin.com/feed/"><img src="images/placeholder.png" alt="linkedin logo"></a>
-        </div>
-        <div>
+        <div class="datediv">
             <span id="currentdate"></span>
         </div>
     </header>
@@ -54,15 +56,17 @@
         </section>
     </main>
     <footer>
-        <img src="images/placeholder.png" alt="logo for chamber of commerce of kennewick">
+        <img class="footerimg"src="images/placeholder.png" alt="logo for chamber of commerce of kennewick">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.997557041216!2d-111.78544368449703!3d43.81441007911597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c38ef412!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1665269227623!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div>
             <p>Timbuktu Chamber of Commerce</p>
             <p></p>
         </div>
-        <div>&copy; <span id="currentyear"></span>Kennewick Chamber | James Chan | WDD 230 Project</div>
-        <div>Last Modification: <span id="lastModif"></span></div>
-        <script src="scripts/index.js"></script>
+        <section class="bottomfooter">
+            <div>&copy; <span id="currentyear"></span>Kennewick Chamber | James Chan | WDD 230 Project |</div>
+            <div> Last Modification: <span id="lastModif"></span></div>
+            <script src="scripts/index.js"></script>
+        </section>
     </footer>
     <script src="js/index.js"></script>
 </body>
