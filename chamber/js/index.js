@@ -43,3 +43,10 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
+if (dayName == "Monday" || dayName == "Tuesday") {
+
+  document.getElementById("sitebanner").textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+
+}
+
