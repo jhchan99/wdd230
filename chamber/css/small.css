@@ -16,10 +16,12 @@
         font-size: x-large;
         place-items: center;
         padding: 1rem;
+        text-align: center;
     }
 
     .headertop {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
         align-content: center;
         justify-content: center;
         place-items: center;
@@ -34,7 +36,7 @@
 
 
     .headings {
-        display: flex;
+        text-align: center;
         flex-direction: column;
         margin: 1rem;
     }
@@ -109,13 +111,12 @@
         max-width: 100%;
     }
 
-
-
     /* Small/Phone View ***************/
+
 .navigation {
 	list-style: none;
 	padding: 0;
-    margin: auto;
+    margin: auto;;
 }
 .navigation li:first-child {
 	display: block;
@@ -135,8 +136,8 @@
 }
 
 .navigation a:hover {
-	color: E8E9EB;
-	background-color: 313638;
+	color: #E8E9EB;
+	background-color: #313638;
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
@@ -144,4 +145,9 @@
 */
 .responsive li {
 	display: block;
+}
+
+.ham img {
+    width: 1em;
+    height: fit-content;
 }
