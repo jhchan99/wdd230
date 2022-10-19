@@ -20,8 +20,7 @@
     }
 
     .headertop {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
         align-content: center;
         justify-content: center;
         place-items: center;
@@ -60,9 +59,29 @@
         margin: 1rem;
     }
 
-    
+    .box4 {
+        grid-row: 1/2;
+    }
+
+    .box5 {
+        display: none;
+    }
+
+    .box9 {
+        display: none;
+    }
+
+    .box3 {
+        grid-row: 2/3;
+    }
+
 	.box1, .box2, .box3, .box4, .box5, .box6 {
         background-color: lightgrey;
+    }
+
+    .box6 {
+        display: grid;
+        grid-gap: 10px;
     }
 
 
@@ -74,7 +93,7 @@
     }
 
     .footerimg {
-        width: 15%;
+        max-width: 5em;
         margin: 10px;
     }
     
@@ -91,18 +110,18 @@
         padding:1rem;
     }
 
-    
+    .footercombo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .bottomfooter {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: auto;
-    }
-
-    iframe {
-        height: auto;
-        width: auto;
     }
 
     img{
@@ -146,6 +165,7 @@
 }
 
 .ham img {
-    width: 1em;
+    min-width: 25px;
+    max-width: 1em;
     height: fit-content;
 }
