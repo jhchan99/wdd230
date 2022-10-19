@@ -23,14 +23,6 @@
         place-items: center;
     }
 
-	.mainStuff {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 10px;
-        margin: 1rem;
-    }
-
 	.box1, .box2, .box3, .box4, .box5, .box6 {
         background-color: lightgrey;
     }
