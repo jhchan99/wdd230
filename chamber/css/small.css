@@ -9,6 +9,23 @@
         margin: 1rem;
     }
 
+    .navigation ul {
+        padding: 0;
+    }
+
+    .heroimage img {
+        width: 100%;
+    }
+    
+    .movingtruck img {
+        width: 50%;
+    }
+
+    .sandbox img {
+        width: 50%;
+    }
+
+
     h3 {
         font-family: 'Noto Sans Display', sans-serif;
     }
@@ -27,6 +44,11 @@
         place-items: center;
         padding: 1rem;
         text-align: center;
+    }
+
+    .titlelogo {
+        display: flex;
+        flex-direction: row;
     }
 
     .headertop {
@@ -130,7 +152,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .footertop {
@@ -149,10 +171,6 @@
         align-items: center;
         justify-content: center;
         margin: auto;
-    }
-
-    img{
-        max-width: 100%;
     }
 
     /* Small/Phone View ***************/

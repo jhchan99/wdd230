@@ -18,12 +18,14 @@
     <header>
         <span id="sitebanner"></span>
         <section class="headertop">
-            <picture><img  class="websiteLogo" src="images/site_logo.png" alt="logo for chamber of commerce of kennewick"></picture>
-            <section class="headings">
-                <h2>Kennewick</h2>
-                <div>
-                    <p>Chamber of Commerce</p>
-                </div>
+            <div class="titlelogo">
+                <picture><img  class="websiteLogo" src="images/site_logo.webp" alt="logo for chamber of commerce of kennewick"></picture>
+                <section class="headings">
+                    <h2>Kennewick</h2>
+                    <div>
+                        <p>Chamber of Commerce</p>
+                    </div>
+            </div>
             </section>
             <nav class="navigation">
                 <ul>
@@ -45,7 +47,10 @@
     </header>
     <main>
         <section class="mainStuff">
-            <div class="box1">Weather</div>
+            <div class="box1">
+                <input>
+                <span id="windchill"></span>
+            </div>
             <div class="box2">
                 <h3>News Release</h3>
                 <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus purus magna, efficitur eget erat in, viverra feugiat eros. Aliquam tempor mauris sit amet sagittis eleifend. Maecenas non aliquam nunc. Integer finibus magna nec enim lacinia, eu gravida libero elementum. Nulla vestibulum at mauris nec ultrices. Aenean odio lacus, ultricies ac laoreet ac, porttitor eget urna. Donec viverra blandit sem a tincidunt. Praesent convallis ut massa id ultricies. Curabitur efficitur turpis vitae nisl porta pretium. Aenean ultricies sapien sapien, eget sodales mi convallis sed. Donec non turpis leo.</p>
@@ -56,7 +61,14 @@
                 <p>Join us for the Grand Opening of the The Tumbleweed</p>
                 <a href="moreinfo.fake">more info...</a>
             </div>
-            <div class="box4"><img src="images/heroimageweek6.jpg"></div>
+            <div class="box4">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="images/heroimageweek6800.jpg 1x">
+                    <source media="(min-width: 600px)" srcset="images/heroimageweek6600.jpg 1x">
+                    <source media="(min-width: 400px)" srcset="images/heroimageweek6400.jpg 1x">
+                    <img src="images/heroimageweek61280.jpg" alt="Random scenary pull from unsplash.it">
+                </picture>
+            </div>
             <div class="box5">
                 <button>Join Us</button>
                 <p>Discover how to join the Chamber of Commerce here in Kennewick</p>
@@ -64,17 +76,22 @@
             <div class="box6">
                 <div class="box7">
                     <h3>Two Guys One Truck</h3>
-                    <img src="images/ruck.png">
+                    <figure class="movingtruck">
+                        <img src="images/ruck.png" alt="moving truck cartoon">
+                        <figcaption>Cartoon moving truck</figcaption>
+                    </figure>
                     <p><em>Dont lift a finger!</em></p>
                 </div>
                 <div class="box8">
                     <h3>After School Tutoring</h3>
-                    <img src="images/maths.jpg">
+                    <img src="images/maths.jpg" alt="math figure cartoons">
                     <p><em>After school tutoring for any age.</em></p>
                 </div>
                 <div class="box9">
                     <h3>New Play Area!</h3>
-                    <img src="images/sandbox.png">
+                    <figure class="sandbox">
+                        <img src="images/sandbox(2).png" alt="sandbox cartoon">
+                    </figure>
                     <p><em>A pit of fun and safety!</em></p>
                 </div>
             </div>
