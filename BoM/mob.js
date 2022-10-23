@@ -1,7 +1,7 @@
 const list = document.querySelector('ul');
 const input = document.querySelector('input');
 const button = document.querySelector('button');
-const alert = document.querySelector('#favchap')
+const alert = document.querySelector('#favchap');
 
 button.addEventListener('click', function() {
 

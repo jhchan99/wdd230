@@ -75,6 +75,8 @@
     .websiteLogo {
         max-width: 100px;
         height: auto;
+        border-radius: 35px;
+        margin-right: 35px;
     }
 
 
@@ -93,6 +95,11 @@
         align-content: center;
     }
 
+    .box1 {
+        display: flex;
+        align-items: center;
+    }
+
     .box4 {
         grid-row: 1/2;
     }
@@ -109,6 +116,24 @@
         grid-row: 2/3;
     }
 
+    .box3 a:link {
+        color: #313638;
+    }
+
+    input {
+        background-color: #E8E9EB;
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    .box3 a:hover {
+        color: #E8E9EB;
+    }
+
+    .output {
+        margin: 10px;
+    }
+
 	.box1, .box2, .box3, .box4, .box5, .box6 {
         background-color: #A5402D60;
     }
@@ -120,6 +145,12 @@
 
     .box6 img{
         min-width: 20px;
+    }
+
+    .linkLogos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
 
@@ -178,7 +209,10 @@
 .navigation {
 	list-style: none;
 	padding: 0;
-    margin: auto;;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
 }
 .navigation li:first-child {
 	display: block;
