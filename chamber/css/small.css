@@ -1,11 +1,11 @@
     body {
-        background-color: #E8E9EB;
+        background-color: #E0E0E0;
     }
     
     header {
-        color: #E8E9EB;
+        color: #EBEBEB;
         font-family: 'Noto Sans Display', sans-serif;
-        background-color: #A5402D;
+        background-color: #1F2716;
         margin: 1rem;
     }
 
@@ -32,7 +32,7 @@
 
     button{
         padding: 5px 50px 5px 50px;
-        background-color: #A5402D50;
+        background-color: #F09B7F50;
         border-radius: 5px;
     }
 
@@ -117,25 +117,26 @@
     }
 
     .box3 a:link {
-        color: #313638;
+        color: #1F2716;
     }
 
     input {
-        background-color: #E8E9EB;
+        background-color: #EBEBEB;
         border-radius: 5px;
         margin: 5px;
     }
 
     .box3 a:hover {
-        color: #E8E9EB;
+        color: #EBEBEB;
     }
 
     .output {
         margin: 10px;
     }
 
-	.box1, .box2, .box3, .box4, .box5, .box6 {
-        background-color: #A5402D60;
+	.box, .box1, .box2, .box3, .box4, .box5, .box6 {
+        background-color: #816F8560;
+        border-radius: 10px;
     }
 
     .box6 {
@@ -171,9 +172,9 @@
     }
     
     footer {
-        color: #E8E9EB;
+        color: #EBEBEB;
         font-family: 'Noto Sans Display', sans-serif;
-        background-color: #A5402D;
+        background-color: #1F2716;
         border-radius: 5rem 0rem 5rem 0rem;
         margin: 1em;
         padding:1rem;
@@ -225,14 +226,14 @@
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
-	color: #E8E9EB;
+	color: #EBEBEB;
 	font-weight: 700;
 	transition: 0.5s;
 	font-size: clamp(1.75rem, 2vmin, 1.5rem);
 }
 
 .navigation a:hover {
-	color: #E8E9EB;
+	color: #EBEBEB;
 	background-color: #313638;
 }
 
