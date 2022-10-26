@@ -83,7 +83,9 @@
     main {
         margin: auto;
         grid-template-columns: 1fr;
+        display: grid;
         font-family: 'Noto Serif', serif;
+        justify-content: center;
     }
 
     

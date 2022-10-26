@@ -65,4 +65,13 @@
         display: grid;
     }
 
+    .localeats {
+        grid-column: 1/2;
+    }
+
+    .localactivites {
+        grid-column: 2/3;
+    }
+    
+
 }

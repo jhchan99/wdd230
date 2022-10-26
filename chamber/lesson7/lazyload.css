@@ -1,0 +1,9 @@
+.pictures {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+picture {
+    margin: 10px;
+}
