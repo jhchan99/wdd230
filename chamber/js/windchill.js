@@ -1,34 +1,28 @@
-const input = document.querySelector('input');
-const button = document.querySelector('button');
+const temp = document.querySelector('#temperature');
+const windspeed = document.querySelector('#windspeed');
+const windchill = document.querySelector('#winchill');
 
-button.addEventListener('click', function() {
+let 
 
-    if (input.value.length === 0) {
-        console.log(alert.setAttribute("placeholder", "Please select a chapter"));
-    }
 
-    else {
 
-    let myItem = input.value;
+windchill
 
-        const listText = document.createElement('span');
-        const listBtn  = document.createElement('button');
+const temp = document.querySelector('#temperature');
+const speed = document.querySelector('#wind-speed');
+const chill = document.querySelector('#wind-chill');
+let tempValue = temp.innerHTML;
+let speedValue = speed.innerHTML;
 
-        listItem.appendChild(listText);
-        listText.textContent = myItem;
-        listItem.appendChild(listBtn);
-        listBtn.textContent = "Remove Content";
-    
-        list.appendChild(listItem);
+function windChill(t, s){
+let c = 'NA'
+if ( t <= 50 && s > 3.0) {
+const r = Math.pow(s, .16);
+let x = 35.74 + (.6215*t) - (35.75 *r) + (.4275*t*r);
+c = Math.trunc(x)
+}
+return c;
 
-    input.value = "";
+}
 
-    listBtn.addEventListener('click', function () {
-        list.removeChild(listItem);
-    });
-
-    };
-
-    input.focus();
-
-});
+chill.innerHTML = windChill(tempValue, speedValue);

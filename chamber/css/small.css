@@ -1,7 +1,12 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         background-color: #E0E0E0;
     }
-    
+
     header {
         color: #EBEBEB;
         font-family: 'Noto Sans Display', sans-serif;
@@ -16,7 +21,7 @@
     .heroimage img {
         width: 100%;
     }
-    
+
     .movingtruck img {
         width: 50%;
     }
@@ -30,7 +35,7 @@
         font-family: 'Noto Sans Display', sans-serif;
     }
 
-    button{
+    button {
         padding: 5px 50px 5px 50px;
         background-color: #F09B7F50;
         border-radius: 5px;
@@ -49,6 +54,7 @@
     .titlelogo {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
 
     .headertop {
@@ -88,11 +94,16 @@
         justify-content: center;
     }
 
-    
+    .discovermain {
+        margin: 1rem auto;
+        max-width: 750px;
+    }
+
+
     .mainStuff {
         display: grid;
         gap: 10px;
-        margin: 1rem;
+        grid-template-columns: 1fr;
         text-align: center;
         align-content: center;
     }
@@ -136,7 +147,13 @@
         margin: 10px;
     }
 
-	.box, .box1, .box2, .box3, .box4, .box5, .box6 {
+    .box,
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6 {
         background-color: #816F8560;
         border-radius: 10px;
     }
@@ -146,7 +163,7 @@
         grid-gap: 10px;
     }
 
-    .box6 img{
+    .box6 img {
         min-width: 20px;
     }
 
@@ -158,7 +175,7 @@
 
 
 
-    .linkLogos img{
+    .linkLogos img {
         width: 50px;
         margin: 5px;
         border-radius: 4rem 4rem;
@@ -168,18 +185,18 @@
         max-width: 5em;
         margin: 10px;
     }
-    
+
     body {
         font-family: 'Noto Serif', serif;
     }
-    
+
     footer {
         color: #EBEBEB;
         font-family: 'Noto Sans Display', sans-serif;
         background-color: #1F2716;
         border-radius: 5rem 0rem 5rem 0rem;
         margin: 1em;
-        padding:1rem;
+        padding: 1rem;
     }
 
     .footercombo {
@@ -209,46 +226,52 @@
 
     /* Small/Phone View ***************/
 
-.navigation {
-	list-style: none;
-	padding: 0;
-    margin: auto;
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-}
-.navigation li:first-child {
-	display: block;
-}
-.navigation li {
-	display: none;
-}
-.navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
-	color: #EBEBEB;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1.75rem, 2vmin, 1.5rem);
-}
+    .navigation {
+        list-style: none;
+        padding: 0;
+        margin: auto;
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+    }
 
-.navigation a:hover {
-	color: #EBEBEB;
-	background-color: #313638;
-}
+    .navigation li:first-child {
+        display: block;
+    }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: #EBEBEB;
+        font-weight: 700;
+        transition: 0.5s;
+        font-size: clamp(1.75rem, 2vmin, 1.5rem);
+    }
+
+    .navigation a:hover {
+        color: #EBEBEB;
+        background-color: #313638;
+    }
+
+    /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
-.responsive li {
-	display: block;
-}
+    .responsive li {
+        display: block;
+    }
 
-.ham img {
-    min-width: 25px;
-    max-width: 1em;
-    height: fit-content;
-}
+    .ham img {
+        min-width: 25px;
+        max-width: 1em;
+        height: fit-content;
+    }
 
+    .box img {
+        width: 100%
+    }
