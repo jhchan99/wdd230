@@ -194,7 +194,6 @@
         color: #EBEBEB;
         font-family: 'Noto Sans Display', sans-serif;
         background-color: #1F2716;
-        border-radius: 5rem 0rem 5rem 0rem;
         margin: 1em;
         padding: 1rem;
     }
@@ -208,7 +207,6 @@
 
     .footertop {
         display: flex;
-        flex-direction: row;
         align-items: center;
     }
 

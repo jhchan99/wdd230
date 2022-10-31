@@ -78,4 +78,8 @@
         transition: 0.5s ease-in-out;
     }
 
+    footer {
+        border-radius: 5rem 0rem 5rem 0rem;
+    }
+
 }
