@@ -5,18 +5,25 @@ table {
     background-color: white;
     border: solid 2px black;
     border-collapse: collapse;
+    box-shadow: 0 0 30px gray;
 }
 
 thead tr {
     font-size: large;
-    color: black;
     border: solid 1px black;
+    background-color: lightblue;
+}
+
+tr:first-child th,
+.highlight {
+    background-color: blue;
+    color: white;
 }
 
 th,
 td {
     border: solid 1px gray;
-    padding: 10px auto;
+    padding: 8px 15px;
 }
 
 tbody {
