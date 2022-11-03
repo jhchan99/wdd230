@@ -1,0 +1,39 @@
+table {
+    margin: 1rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+    background-color: white;
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+thead tr {
+    font-size: large;
+    color: black;
+    border: solid 1px black;
+}
+
+th,
+td {
+    border: solid 1px gray;
+    padding: 10px auto;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody tr:hover {
+    color: white;
+    background-color: darkblue;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+caption {
+    font-size: small;
+    caption-side: bottom;
+    padding-top: 5px;
+}
