@@ -62,21 +62,53 @@
                 <label class="top">Phone <input type="tel" name="phone" placeholder="1234556666" required></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com"
                         required></label>
-                <label class="top">Business Position <input type="text" name="title" pattern="[A-Za-z0-9- ]"
-                        minlength="7"></label>
-                <label class="top">Business Name <input type="textarea" name="title"></label>
-                <label class="top description">Description of Business <textarea name="description" id="" cols="100"
-                        rows="10"></textarea></label>
             </fieldset>
 
             <fieldset>
-                <legend>Membership</legend>
-                <div>Level</div>
-                <label class="sbs"><input type="radio" name="audience" value="beginner"> NP Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="intermediate"> Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="advanced"> Silver Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="advanced"> Gold Membership</label>
+                <legend>Business Information</legend>
+                <label class="top">Business Position <input type="text" name="title" pattern="[A-Za-z0-9- ]"
+                    minlength="7"></label>
+                <label class="top"> Business Name <input type="textarea" name="title" required></label>
+                <label class="top description">Short Description of Business <textarea name="description" id="" cols="100"
+                    rows="10"></textarea></label>
+            </fieldset>
 
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="audience" value="beginner"> NP Membership</label>
+                <div class="description">
+                    $500   <br>
+                    - Weekly meetings with board members <br>
+                    - Discounts at local events <br>
+                </div>
+                <label class="sbs"><input type="radio" name="audience" value="intermediate"> Bronze Membership</label>
+                <div class="description">
+                    $1000 <br>
+                    - Weekly meetings with board members <br>
+                    - Discounts at local events <br>
+                    - Weekly Trainings one on one <br>
+                    - Yearly business trips <br>
+                </div>
+                <label class="sbs"><input type="radio" name="audience" value="advanced"> Silver Membership</label>
+                <div class="description">
+                    $2000 <br>
+                    - Weekly meetings with board members <br>
+                    - Discounts at local events <br>
+                    - Weekly Trainings one on one <br>
+                    - Yearly business trips <br>
+                    - Advertising on home page for a small fee <br>
+                </div>
+                <label class="sbs"><input type="radio" name="audience" value="advanced"> Gold Membership
+                <div class="description">
+                    $50,000,000 <br>
+                    - Weekly meetings with board members <br>
+                    - Discounts at local events <br>
+                    - Weekly Trainings one on one <br>
+                    - Yearly business trips <br>
+                    - Advertising on home page once a year for free <br>
+                    - Ride on float during city fair <br>
+                </div>
+                </label>
                 <div>Discriptions</div>
 
             </fieldset>
