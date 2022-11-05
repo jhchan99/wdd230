@@ -271,23 +271,24 @@ footer {
 /* -------------------- FORM -------------------------*/
 
 form fieldset {
-  margin: 2rem 0;
-  border: 1px solid #1f2716;
+  margin: 2rem 0 2rem;
+  border: 1px dashed #1f271699;
   border-radius: 10px;
   padding: 0.5rem 2%;
 }
 
 form legend {
+  text-align: center;
   color: #1f2716;
-  margin: 1 1rem;
+  margin: 1rem 1rem;
   padding: 0 0.5rem;
 }
 
 form label.top,
 form div {
   display: block;
-  padding-top: 1rem;
-  color: #9c2c13;
+  padding: 1rem 0 0;
+  color: #b44418;
   font-size: 0.8rem;
 }
 
@@ -309,7 +310,7 @@ form label.sbs {
 }
 
 .description {
-  color: #1f271685;
+  color: #1f271699;
   font-size: 16px;
   padding: 0 2% 1rem;
 }
@@ -317,7 +318,7 @@ form label.sbs {
 form input.submitBtn {
   border: none;
   background-color: #b44418;
-  color: #e0e0e0;
+  color: white;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
   margin: 0 0 2rem 2%;
@@ -325,7 +326,12 @@ form input.submitBtn {
   max-width: 20rem;
 }
 
-form label.top input:required {
+form input.submitBtn:hover {
+  color: #b44418;
+  background-color: white;
+}
+
+form form label.top input:required {
   border-left: solid #9c2c13 6px;
 }
 
