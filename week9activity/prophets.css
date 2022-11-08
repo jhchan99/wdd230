@@ -9,7 +9,8 @@ h1 {
 }
 
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     flex-wrap: wrap;
     margin: 10px;
 }
