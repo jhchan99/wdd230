@@ -1,0 +1,29 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.cards img {
+    margin: auto;
+    max-width: 75%;
+    margin-bottom: 15px;
+
+}
+
+.cards section {
+    background-color: antiquewhite;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px lightgray;
+}
