@@ -1,350 +1,360 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-    body {
-        background-color: #E0E0E0;
-    }
+body {
+  background-color: #e0e0e0;
+}
 
-    header {
-        color: #EBEBEB;
-        font-family: 'Noto Sans Display', sans-serif;
-        background-color: #1F2716;
-        margin: 1rem;
-    }
+header {
+  color: #ebebeb;
+  font-family: "Noto Sans Display", sans-serif;
+  background-color: #1f2716;
+  margin: 1rem;
+}
 
-    .navigation ul {
-        padding: 0;
-    }
+.navigation ul {
+  padding: 0;
+}
 
-    .heroimage img {
-        width: 100%;
-    }
+.heroimage img {
+  width: 100%;
+}
 
-    .movingtruck img {
-        width: 50%;
-    }
+.movingtruck img {
+  width: 50%;
+}
 
-    .sandbox img {
-        width: 50%;
-    }
+.sandbox img {
+  width: 50%;
+}
 
+h3 {
+  font-family: "Noto Sans Display", sans-serif;
+}
 
-    h3 {
-        font-family: 'Noto Sans Display', sans-serif;
-    }
+button {
+  padding: 5px 50px 5px 50px;
+  background-color: #f09b7f50;
+  border-radius: 5px;
+}
 
-    button {
-        padding: 5px 50px 5px 50px;
-        background-color: #F09B7F50;
-        border-radius: 5px;
-    }
+#sitebanner {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: x-large;
+  place-items: center;
+  padding: 1rem;
+  text-align: center;
+}
 
-    #sitebanner {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        font-size: x-large;
-        place-items: center;
-        padding: 1rem;
-        text-align: center;
-    }
+.titlelogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-    .titlelogo {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+.headertop {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  place-items: center;
+}
 
-    .headertop {
-        display: grid;
-        align-content: center;
-        justify-content: center;
-        place-items: center;
-    }
+.datediv {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #31363820;
+}
 
-    .datediv {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        padding: 1rem;
-        background-color: #31363820;
-    }
+.headings {
+  text-align: center;
+  flex-direction: column;
+}
 
+.websiteLogo {
+  max-width: 100px;
+  height: auto;
+  border-radius: 35px;
+  margin-right: 35px;
+}
 
-    .headings {
-        text-align: center;
-        flex-direction: column;
-    }
+main {
+  margin: auto;
+  grid-template-columns: 1fr;
+  display: grid;
+  font-family: "Noto Serif", serif;
+  justify-content: center;
+}
 
-    .websiteLogo {
-        max-width: 100px;
-        height: auto;
-        border-radius: 35px;
-        margin-right: 35px;
-    }
+.discovermain {
+  margin: 1rem auto;
+  max-width: 750px;
+}
 
+.mainStuff {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-content: center;
+}
 
-    main {
-        margin: auto;
-        grid-template-columns: 1fr;
-        display: grid;
-        font-family: 'Noto Serif', serif;
-        justify-content: center;
-    }
+.box1 {
+  display: flex;
+  align-items: center;
+}
 
-    .discovermain {
-        margin: 1rem auto;
-        max-width: 750px;
-    }
+.box4 {
+  grid-row: 1/2;
+}
 
+.box5 {
+  display: none;
+}
 
-    .mainStuff {
-        display: grid;
-        gap: 10px;
-        grid-template-columns: 1fr;
-        text-align: center;
-        align-content: center;
-    }
+.box9 {
+  display: none;
+}
 
-    .box1 {
-        display: flex;
-        align-items: center;
-    }
+.box3 {
+  grid-row: 2/3;
+}
 
-    .box4 {
-        grid-row: 1/2;
-    }
+.box3 a:link {
+  color: #1f2716;
+}
 
-    .box5 {
-        display: none;
-    }
+input {
+  background-color: #ebebeb;
+  border-radius: 5px;
+  margin: 5px;
+}
 
-    .box9 {
-        display: none;
-    }
+.box3 a:hover {
+  color: #ebebeb;
+}
 
-    .box3 {
-        grid-row: 2/3;
-    }
+.output {
+  margin: 10px;
+}
 
-    .box3 a:link {
-        color: #1F2716;
-    }
+.box,
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  background-color: #816f8560;
+  border-radius: 10px;
+}
 
-    input {
-        background-color: #EBEBEB;
-        border-radius: 5px;
-        margin: 5px;
-    }
+.box6 {
+  display: grid;
+  grid-gap: 10px;
+}
 
-    .box3 a:hover {
-        color: #EBEBEB;
-    }
+.box6 img {
+  min-width: 20px;
+}
 
-    .output {
-        margin: 10px;
-    }
+.linkLogos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-    .box,
-    .box1,
-    .box2,
-    .box3,
-    .box4,
-    .box5,
-    .box6 {
-        background-color: #816F8560;
-        border-radius: 10px;
-    }
+.linkLogos img {
+  width: 50px;
+  margin: 5px;
+  border-radius: 4rem 4rem;
+}
 
-    .box6 {
-        display: grid;
-        grid-gap: 10px;
-    }
+.footerimg {
+  max-width: 5em;
+  margin: 10px;
+}
 
-    .box6 img {
-        min-width: 20px;
-    }
+body {
+  font-family: "Noto Serif", serif;
+}
 
-    .linkLogos {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+footer {
+  color: #ebebeb;
+  font-family: "Noto Sans Display", sans-serif;
+  background-color: #1f2716;
+  margin: 1em;
+  padding: 1rem;
+}
 
+.footercombo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
+.footertop {
+  display: flex;
+  align-items: center;
+}
 
-    .linkLogos img {
-        width: 50px;
-        margin: 5px;
-        border-radius: 4rem 4rem;
-    }
+.location {
+  margin: 10px;
+}
 
-    .footerimg {
-        max-width: 5em;
-        margin: 10px;
-    }
+.bottomfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
 
-    body {
-        font-family: 'Noto Serif', serif;
-    }
+/* Small/Phone View ***************/
 
-    footer {
-        color: #EBEBEB;
-        font-family: 'Noto Sans Display', sans-serif;
-        background-color: #1F2716;
-        margin: 1em;
-        padding: 1rem;
-    }
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
 
-    .footercombo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
+.navigation li:first-child {
+  display: block;
+}
 
-    .footertop {
-        display: flex;
-        align-items: center;
-    }
+.navigation li {
+  display: none;
+}
 
-    .location {
-        margin: 10px;
-    }
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: 700;
+  transition: 0.5s;
+  font-size: clamp(1.75rem, 2vmin, 1.5rem);
+}
 
-    .bottomfooter {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
+.navigation a:hover {
+  color: #ebebeb;
+  background-color: #313638;
+}
 
-    /* Small/Phone View ***************/
-
-    .navigation {
-        list-style: none;
-        padding: 0;
-        margin: auto;
-        display: flex;
-        align-content: center;
-        justify-content: space-evenly;
-    }
-
-    .navigation li:first-child {
-        display: block;
-    }
-
-    .navigation li {
-        display: none;
-    }
-
-    .navigation a {
-        display: block;
-        padding: 0.75rem;
-        text-align: left;
-        text-decoration: none;
-        color: #EBEBEB;
-        font-weight: 700;
-        transition: 0.5s;
-        font-size: clamp(1.75rem, 2vmin, 1.5rem);
-    }
-
-    .navigation a:hover {
-        color: #EBEBEB;
-        background-color: #313638;
-    }
-
-    /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
-    .responsive li {
-        display: block;
-    }
+.responsive li {
+  display: block;
+}
 
-    .ham img {
-        min-width: 25px;
-        max-width: 1em;
-        height: fit-content;
-    }
+.ham img {
+  min-width: 25px;
+  max-width: 1em;
+  height: fit-content;
+}
 
-    .box img {
-        width: 100%
-    }
+.box img {
+  width: 100%;
+}
 
-    /* -------------------- FORM -------------------------*/
+/* -------------------- FORM -------------------------*/
 
-    form fieldset {
-        margin: 2rem 0;
-        border: 1px solid #1F2716;
-        border-radius: 10px;
-        padding: .5rem 2%;
-    }
+form fieldset {
+  margin: 2rem 0 2rem;
+  border: 1px dashed #1f271699;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
 
-    form legend {
-        color: #1F2716;
-        margin: 1 1rem;
-        padding: 0 0.5rem;
-    }
+form legend {
+  text-align: center;
+  color: #1f2716;
+  margin: 1rem 1rem;
+  padding: 0 0.5rem;
+}
 
-    form label.top,
-    form div {
-        display: block;
-        padding-top: 1rem;
-        color: #9c2c13;
-        font-size: .8rem;
-    }
+form label.top,
+form div {
+  display: block;
+  padding: 1rem 0 0;
+  color: #b44418;
+  font-size: 0.8rem;
+}
 
-    form label.top input,
-    form label.top select {
-        display: block;
-        font-size: 16px;
-        border: solid 1px gray;
-        border-radius: 4px;
-        padding: .75rem;
-        color: black;
-        width: 100%;
-        max-width: 20rem;
-        background-color: rgba(0, 0, 0, 0.1);
-    }
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 16px;
+  border: solid 1px gray;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: black;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
-    form input.submitBtn {
-        border: none;
-        background-color: #B44418;
-        color: #E0E0E0;
-        border-radius: 1rem;
-        padding: 0.75rem 1.5rem;
-        margin: 0 0 2rem 2%;
-        width: 96%;
-        max-width: 20rem;
-    }
+form label.sbs {
+  display: block;
+}
 
-    form label.top input:required {
-        border-left: solid #9c2c13 6px;
-    }
+.description {
+  color: #1f271699;
+  font-size: 16px;
+  padding: 0 2% 1rem;
+}
 
-    form label.top input:required:valid {
-        border-left: solid green 6px;
-    }
+form input.submitBtn {
+  border: none;
+  background-color: #b44418;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
 
-    form label.top .description {
-        width: 100%;
-        height: 20rem;
-        max-width: 20rem;
-    }
+form input.submitBtn:hover {
+  color: #b44418;
+  background-color: white;
+}
 
-    textarea {
-        display: block;
-        font-size: 16px;
-        border: solid 1px gray;
-        border-radius: 4px;
-        padding: .75rem;
-        color: black;
-        width: 100%;
-        max-width: 20rem;
-        background-color: rgba(0, 0, 0, 0.1);
-    }
+form form label.top input:required {
+  border-left: solid #9c2c13 6px;
+}
 
-    /*--------------- hover over memberships -----------------*/
+form label.top input:required:valid {
+  border-left: solid green 6px;
+}
+
+form label.top .description {
+  width: 100%;
+  height: 20rem;
+  max-width: 20rem;
+}
+
+textarea {
+  display: block;
+  font-size: 16px;
+  border: solid 1px gray;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: black;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*--------------- hover over memberships -----------------*/

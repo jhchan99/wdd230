@@ -1,111 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="chamber of commerce site for kennewick washington, this site will feature things that help asian american immigrants adapt to their new town">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="chamber of commerce site for kennewick washington, this site will feature things that help asian american immigrants adapt to their new town"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&family=Noto+Sans+SC&family=Noto+Serif&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize2.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&family=Noto+Sans+SC&family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize2.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
     <title>Kennewick Chamber of Commerce</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <span id="sitebanner"></span>
-        <div class="headermain">
-            <section class="headertop">
-                <div class="titlelogo">
-                    <picture><img class="websiteLogo" src="images/site_logo.webp"
-                            alt="logo for chamber of commerce of kennewick"></picture>
-                    <section class="headings">
-                        <h2>Kennewick</h2>
-                        <div>
-                            <p>Chamber of Commerce</p>
-                        </div>
-                </div>
+      <span id="sitebanner"></span>
+      <div class="headermain">
+        <section class="headertop">
+          <div class="titlelogo">
+            <picture
+              ><img
+                class="websiteLogo"
+                src="images/site_logo.webp"
+                alt="logo for chamber of commerce of kennewick"
+            /></picture>
+            <section class="headings">
+              <h2>Kennewick</h2>
+              <div>
+                <p>Chamber of Commerce</p>
+              </div>
             </section>
-            <nav class="navigation">
-                <ul>
-                    <li><a class="ham" href="#"><img src="images/hamburger_icon.png" alt="hamburger menu icon"></a></li>
-                    <li><a href="https://jhchan99.github.io/wdd230/chamber/index.html">Home</a></li>
-                    <li><a href="https://jhchan99.github.io/wdd230/chamber/discover">Discover</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="linkLogos">
-                <a href="https://www.facebook.com/"><img src="images/placeholder.png" alt="facebook logo"></a>
-                <a href="https://www.linkedin.com/feed/"><img src="images/placeholder.png" alt="linkedin logo"></a>
-            </div>
-            </section>
+          </div>
+        </section>
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a class="ham" href="#"
+                ><img src="images/hamburger_icon.png" alt="hamburger menu icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://jhchan99.github.io/wdd230/chamber/index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="https://jhchan99.github.io/wdd230/chamber/discover"
+                >Discover</a
+              >
+            </li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="linkLogos">
+          <a href="https://www.facebook.com/"
+            ><img src="images/placeholder.png" alt="facebook logo"
+          /></a>
+          <a href="https://www.linkedin.com/feed/"
+            ><img src="images/placeholder.png" alt="linkedin logo"
+          /></a>
         </div>
-        <div class="datediv">
-            <span id="currentdate"></span>
-        </div>
+      </div>
+      <div class="datediv">
+        <span id="currentdate"></span>
+      </div>
     </header>
     <main>
-        <form method="get" action="thankyou.html">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Phone <input type="tel" name="phone" placeholder="1234556666" required></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com"
-                        required></label>
-                <label class="top">Business Position <input type="text" name="title" pattern="[A-Za-z0-9- ]"
-                        minlength="7"></label>
-                <label class="top">Business Name <input type="textarea" name="title"></label>
-                <label class="top description">Description of Business <textarea name="description" id="" cols="100"
-                        rows="10"></textarea></label>
-            </fieldset>
+      <form method="get" action="thankyou.html">
+        <fieldset>
+          <legend>Applicant Information</legend>
+          <label class="top"
+            >First Name* <input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Last Name* <input type="text" name="lname" required
+          /></label>
+          <label class="top"
+            >Phone
+            <input type="tel" name="phone" placeholder="1234556666" required
+          /></label>
+          <label class="top"
+            >Email*
+            <input
+              type="email"
+              name="email"
+              placeholder="someone@gmail.com"
+              required
+          /></label>
+        </fieldset>
 
-            <fieldset>
-                <legend>Membership</legend>
-                <div>Level</div>
-                <label class="sbs"><input type="radio" name="audience" value="beginner"> NP Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="intermediate"> Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="advanced"> Silver Membership</label>
-                <label class="sbs"><input type="radio" name="audience" value="advanced"> Gold Membership</label>
+        <fieldset>
+          <legend>Business Information</legend>
+          <label class="top"
+            >Business Position
+            <input
+              type="text"
+              name="title"
+              pattern="[A-Za-z0-9- ]+"
+              minlength="7"
+              oninvalid="setCustomValidity('Please use only spaces, hiphens and characters from the alphabet. Must have at least 7 characters.')"
+          /></label>
+          <label class="top">
+            Business Name <input type="text" name="title" required
+          /></label>
+          <label class="top description"
+            >Short Description of Business
+            <textarea name="description" cols="100" rows="10"></textarea>
+          </label>
+        </fieldset>
 
-                <div>Discriptions</div>
-
-            </fieldset>
-
-            <fieldset>
-                <legend>Date Time</legend>
-                <label class="top"><input type="hidden" name="formDate" id="dateS"></label>
-            </fieldset>
-
-            <input type="submit" value="Propose My Course" class="submitBtn">
+        <fieldset>
+          <legend>Membership Level</legend>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="beginner" /> NP
+            Membership
+            <p class="description">
+              Free <br />
+              - Weekly meetings with board members <br />
+            </p>
+          </label>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="intermediate" /> Bronze
+            Membership
+            <p class="description">
+              $1000 <br />
+              - Weekly meetings with board members <br />
+              - Discounts at local events <br />
+              - Weekly Trainings one on one <br />
+              - Yearly business trips <br />
+            </p>
+          </label>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="advanced" /> Silver
+            Membership
+            <p class="description">
+              $2000 <br />
+              - Weekly meetings with board members <br />
+              - Discounts at local events <br />
+              - Weekly Trainings one on one <br />
+              - Yearly business trips <br />
+              - Advertising on home page for a small fee <br />
+            </p>
+          </label>
+          <label class="sbs"
+            ><input type="radio" name="audience" value="advanced" /> Gold
+            Membership
+            <p class="description">
+              $50,000,000 <br />
+              - Weekly meetings with board members <br />
+              - Discounts at local events <br />
+              - Weekly Trainings one on one <br />
+              - Yearly business trips <br />
+              - Advertising on home page once a year for free <br />
+              - Ride on float during city fair <br />
+            </p>
+          </label>
+        </fieldset>
+        <label class="top"
+          ><input type="hidden" name="formDate" id="dateStamp" /><span
+            class="today"
+          ></span
+        ></label>
+        <label class="top"
+          ><input type="hidden" name="formVisit" id="visitStamp" /><span
+            class="visit"
+          ></span
+        ></label>
+        <input type="submit" value="Propose My Course" class="submitBtn" />
+      </form>
     </main>
     <footer>
-        <div class="footercombo">
-            <div class="footertop">
-                <img class="footerimg" src="images/placeholder.png" alt="logo for chamber of commerce of kennewick">
-                <p>Kennewick
-                    <br> Chamber of Commerce
-                </p>
-            </div>
-            <div class="location">Kennewick, WA 99336</div>
+      <div class="footercombo">
+        <div class="footertop">
+          <img
+            class="footerimg"
+            src="images/placeholder.png"
+            alt="logo for chamber of commerce of kennewick"
+          />
+          <p>
+            Kennewick <br />
+            Chamber of Commerce
+          </p>
         </div>
-        <section class="bottomfooter">
-            <div>&copy; <span id="currentyear"></span> Kennewick Chamber | James Chan | WDD 230 Project |</div>
-            <div> Last Modification: <span id="lastModif"></span></div>
-        </section>
+        <div class="location">Kennewick, WA 99336</div>
+      </div>
+      <section class="bottomfooter">
+        <div>
+          &copy; <span id="currentyear"></span> Kennewick Chamber | James Chan |
+          WDD 230 Project |
+        </div>
+        <div>Last Modification: <span id="lastModif"></span></div>
+      </section>
     </footer>
     <script src="js/index.js" defer></script>
     <script src="/chamber/lesson7/lazyload.js" defer></script>
     <script src="/chamber/js/displaytime.js" defer></script>
-</body>
-
+  </body>
 </html>
