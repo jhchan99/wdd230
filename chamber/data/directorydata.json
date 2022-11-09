@@ -5,7 +5,7 @@
         "Phone": 1234565678,
         "website": "somewebsite.com",
         "image": "https://via.placeholder.com/150",
-        "membership": "wood league"
+        "membership": "bronze"
     },
     {
         "Name": "Joffrey Barbargo",
@@ -13,7 +13,7 @@
         "Phone": 1234565678,
         "website": "somewebsite.com",
         "image": "https://via.placeholder.com/150",
-        "membership": "wood league"
+        "membership": "platinum"
     },
     {
         "Name": "Kneik Haus",
@@ -21,7 +21,7 @@
         "Phone": 1234565678,
         "website": "somewebsite.com",
         "image": "https://via.placeholder.com/150",
-        "membership": "wood league"
+        "membership": "bronze"
     },
     {
         "Name": "Lodhe Goudh",
@@ -29,7 +29,7 @@
         "Phone": 1234565678,
         "website": "somewebsite.com",
         "image": "https://via.placeholder.com/150",
-        "membership": "wood league"
+        "membership": "gold"
     },
     {
         "Name": "Timmy Chan",
@@ -37,7 +37,7 @@
         "Phone": 1234565678,
         "website": "somewebsite.com",
         "image": "https://via.placeholder.com/150",
-        "membership": "wood league"
+        "membership": "platinum"
     },
     {
         "Name": "Limmy Chan",
@@ -45,6 +45,6 @@
         "Phone": 1234565678,
         "website": "somewebsite.com",
         "image": "https://via.placeholder.com/150",
-        "membership": "wood league"
+        "membership": "bronze"
     }
 ]
