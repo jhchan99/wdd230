@@ -1,50 +1,52 @@
-[
-    {
-        "Name": "James Chan",
-        "Address": "123 Lane ln, A city",
-        "Phone": 1234565678,
-        "website": "somewebsite.com",
-        "image": "https://via.placeholder.com/150",
-        "membership": "bronze"
-    },
-    {
-        "Name": "Joffrey Barbargo",
-        "Address": "2463 Lane ln, A city",
-        "Phone": 1234565678,
-        "website": "somewebsite.com",
-        "image": "https://via.placeholder.com/150",
-        "membership": "platinum"
-    },
-    {
-        "Name": "Kneik Haus",
-        "Address": "8356 Lane ln, A city",
-        "Phone": 1234565678,
-        "website": "somewebsite.com",
-        "image": "https://via.placeholder.com/150",
-        "membership": "bronze"
-    },
-    {
-        "Name": "Lodhe Goudh",
-        "Address": "084 Lane ln, A city",
-        "Phone": 1234565678,
-        "website": "somewebsite.com",
-        "image": "https://via.placeholder.com/150",
-        "membership": "gold"
-    },
-    {
-        "Name": "Timmy Chan",
-        "Address": "234 Lane ln, A city",
-        "Phone": 1234565678,
-        "website": "somewebsite.com",
-        "image": "https://via.placeholder.com/150",
-        "membership": "platinum"
-    },
-    {
-        "Name": "Limmy Chan",
-        "Address": "657 Lane ln, A city",
-        "Phone": 1234565678,
-        "website": "somewebsite.com",
-        "image": "https://via.placeholder.com/150",
-        "membership": "bronze"
-    }
-]
+{
+    "directory": [
+        {
+            "name": "James Chan",
+            "Address": "123 Lane ln, A city",
+            "Phone": 1234565678,
+            "website": "somewebsite.com",
+            "image": "https://via.placeholder.com/150",
+            "membership": "bronze"
+        },
+        {
+            "name": "Joffrey Barbargo",
+            "Address": "2463 Lane ln, A city",
+            "Phone": 1234565678,
+            "website": "somewebsite.com",
+            "image": "https://via.placeholder.com/150",
+            "membership": "platinum"
+        },
+        {
+            "name": "Kneik Haus",
+            "Address": "8356 Lane ln, A city",
+            "Phone": 1234565678,
+            "website": "somewebsite.com",
+            "image": "https://via.placeholder.com/150",
+            "membership": "bronze"
+        },
+        {
+            "name": "Lodhe Goudh",
+            "Address": "084 Lane ln, A city",
+            "Phone": 1234565678,
+            "website": "somewebsite.com",
+            "image": "https://via.placeholder.com/150",
+            "membership": "gold"
+        },
+        {
+            "name": "Timmy Chan",
+            "Address": "234 Lane ln, A city",
+            "Phone": 1234565678,
+            "website": "somewebsite.com",
+            "image": "https://via.placeholder.com/150",
+            "membership": "platinum"
+        },
+        {
+            "name": "Limmy Chan",
+            "Address": "657 Lane ln, A city",
+            "Phone": 1234565678,
+            "website": "somewebsite.com",
+            "image": "https://via.placeholder.com/150",
+            "membership": "bronze"
+        }
+    ]
+}
