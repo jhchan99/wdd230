@@ -107,6 +107,10 @@
         margin: 0 auto;
     }
 
+    /*---------- directory ------------*/
 
+    .cards {
+        width: 700px;
+    }
 
 }

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="discover site for chamber of commerce site for kennewick washington, a site for demographic information and noteworthy locations in the area">
+        content="directory for people in the Chamber of commerce, who runs the page and the leaders of the chamber">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,39 +16,40 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <title>Discover: Kennewick Chamber of Commerce</title>
+    <title>Directory: Kennewick Chamber of Commerce</title>
 </head>
 
 <body>
     <header>
         <span id="sitebanner"></span>
         <div class="headermain">
-            <section class="headertop">
+            <div class="headertop">
                 <div class="titlelogo">
                     <picture><img class="websiteLogo" src="images/site_logo.webp"
                             alt="logo for chamber of commerce of kennewick"></picture>
-                    <section class="headings">
+                    <div class="headings">
                         <h2>Kennewick</h2>
                         <div>
                             <p>Chamber of Commerce</p>
                         </div>
+                    </div>
                 </div>
-            </section>
-            <nav class="navigation">
-                <ul>
-                    <li><a class="ham" href="#"><img src="images/hamburger_icon.png" alt="hamburger menu icon"></a></li>
-                    <li><a href="https://jhchan99.github.io/wdd230/chamber/index.html">Home</a></li>
-                    <li><a href="https://jhchan99.github.io/wdd230/chamber/discover">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="linkLogos">
-                <a href="https://www.facebook.com/"><img src="images/placeholder.png" alt="facebook logo"></a>
-                <a href="https://www.linkedin.com/feed/"><img src="images/placeholder.png" alt="linkedin logo"></a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a class="ham" href="#"><img src="images/hamburger_icon.png" alt="hamburger menu icon"></a>
+                        </li>
+                        <li><a href="https://jhchan99.github.io/wdd230/chamber/index.html">Home</a></li>
+                        <li><a href="https://jhchan99.github.io/wdd230/chamber/discover">Discover</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="linkLogos">
+                    <a href="https://www.facebook.com/"><img src="images/placeholder.png" alt="facebook logo"></a>
+                    <a href="https://www.linkedin.com/feed/"><img src="images/placeholder.png" alt="linkedin logo"></a>
+                </div>
             </div>
-            </section>
         </div>
         <div class="datediv">
             <span id="currentdate"></span>
@@ -67,15 +68,13 @@
             </div>
             <div class="location">Kennewick, WA 99336</div>
         </div>
-        <section class="bottomfooter">
+        <div class="bottomfooter">
             <div>&copy; <span id="currentyear"></span> Kennewick Chamber | James Chan | WDD 230 Project |</div>
             <div> Last Modification: <span id="lastModif"></span></div>
-        </section>
+        </div>
     </footer>
-    <script src="js/index.js" defer></script>
-    <script src="lesson7/lazyload.js" defer></script>
-    <script src="js/displaytime.js" defer></script>
-    <script src="js/directory.js" defer></script>
+    <script src="js/index.js" async></script>
+    <script src="js/directory.js" async></script>
 </body>
 
 </html>

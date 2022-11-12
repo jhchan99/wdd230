@@ -368,4 +368,26 @@ input[type="radio"] {
 
 }
 
-/*--------------- json stuff -----------------*/
+/*--------------- directory -----------------*/
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cards img {
+  margin: auto;
+  max-width: 75%;
+  margin-bottom: 15px;
+
+}
+
+.cards section {
+  background-color: #ebebeb;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px lightgray;
+}
