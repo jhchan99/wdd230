@@ -32,9 +32,7 @@ document.getElementById("currentdate").textContent = fulldate;
 
 document.getElementById("currentyear").textContent = d.getFullYear();
 
-
-let oLastModif = new Date(document.lastModified);
-document.getElementById("lastModif").textContent = oLastModif;
+document.getElementById("lastModif").textContent = document.lastModified;
 
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
