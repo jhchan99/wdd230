@@ -47,6 +47,22 @@
             "website": "somewebsite.com",
             "image": "https://via.placeholder.com/150",
             "membership": "bronze"
+        },
+        {
+            "name": "Mored Lapit",
+            "Address": "657 Lane ln, A city",
+            "Phone": 1234565678,
+            "website": "somewebsite.com",
+            "image": "https://via.placeholder.com/150",
+            "membership": "bronze"
+        },
+        {
+            "name": "Hosur Maelut",
+            "Address": "657 Lane ln, A city",
+            "Phone": 1234565678,
+            "website": "somewebsite.com",
+            "image": "https://via.placeholder.com/150",
+            "membership": "bronze"
         }
     ]
 }
