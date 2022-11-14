@@ -26,6 +26,12 @@
     align-items: center;
   }
 
+  .mainStuff {
+    width: 1600px;
+    margin: 0 auto;
+
+  }
+
   .box1 {
     grid-row: 2/3;
     grid-column: 1/2;
