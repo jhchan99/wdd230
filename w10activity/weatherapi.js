@@ -3,7 +3,7 @@ const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
 
 const url =
-  "https://api.openweathermap.org/data/3.0/onecall?q=Fairbanks&units=imperial&appid=532c6642b652353eefe1bf815d1cc36a";
+  "https://api.openweathermap.org/data/3.0/onecall?q=Fairbanks&units=imperial&appid=51aa657a579d41a2c5eb9285bb694cc4";
 
 async function apiFetch() {
   try {
