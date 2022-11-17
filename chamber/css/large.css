@@ -90,9 +90,9 @@
   /*-------- FORM ---------------*/
 
   form label.sbs {
-    display: flex;
     align-items: baseline;
     justify-content: flex-start;
+    padding: 10px;
   }
 
 

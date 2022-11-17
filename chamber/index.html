@@ -36,7 +36,7 @@
                 </div>
                 <nav class="navigation">
                     <ul>
-                        <li><a class="ham" href="#"><img src="images/hamburger_icon.png" alt="hamburger menu icon"></a>
+                        <li><a class="ham" href="#"><img src="images/hamburger.jpg" alt="hamburger menu icon"></a>
                         </li>
                         <li><a href="https://jhchan99.github.io/wdd230/chamber/index.html">Home</a></li>
                         <li><a href="https://jhchan99.github.io/wdd230/chamber/discover">Discover</a></li>
@@ -59,9 +59,13 @@
         <section class="mainStuff">
             <div class="box1">
                 <div class="weatherinput">
-                    <div>Temperature: <span id="temperature">50</span></div>
-                    <div>Wind Speed: <span id="windspeed">20</span></div>
-                    <div>Wind Chill: <span id="windchill">NA</span></div>
+                    <h3>Weather</h3>
+                    <picture><img src="" alt="" id="weather-icon"></picture>
+                    <div><span id="current-temp"></span>&deg;F</div>
+                    <figcaption>Cartoon moving truck</figcaption>
+                    <div>Wind Speed: <span id="wind-speed"></span> MPH</div>
+                    <div>Wind Chill: <span id="wind-chill"></span></div>
+
                 </div>
             </div>
             <div class="box2">
@@ -98,7 +102,6 @@
                     <h3>Two Guys One Truck</h3>
                     <picture class="spotlight">
                         <img src="images/ruck.png" alt="moving truck cartoon">
-                        <figcaption>Cartoon moving truck</figcaption>
                     </picture>
                     <p><em>Dont lift a finger!</em></p>
                 </div>
@@ -133,6 +136,7 @@
         </section>
     </footer>
     <script src="js/index.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
