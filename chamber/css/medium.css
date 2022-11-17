@@ -12,6 +12,8 @@
         place-items: center;
     }
 
+    .headermain {}
+
     .box1,
     .box3 {
         grid-column: 1/2;
