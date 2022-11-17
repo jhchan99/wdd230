@@ -5,7 +5,7 @@
             "Address": "123 Lane ln, A city",
             "Phone": 1234565678,
             "website": "somewebsite.com",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://picsum.photos/200/300",
             "membership": "bronze"
         },
         {
@@ -13,7 +13,7 @@
             "Address": "2463 Lane ln, A city",
             "Phone": 1234565678,
             "website": "somewebsite.com",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://picsum.photos/200/300",
             "membership": "platinum"
         },
         {
@@ -21,7 +21,7 @@
             "Address": "8356 Lane ln, A city",
             "Phone": 1234565678,
             "website": "somewebsite.com",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://picsum.photos/200/300",
             "membership": "bronze"
         },
         {
@@ -29,7 +29,7 @@
             "Address": "084 Lane ln, A city",
             "Phone": 1234565678,
             "website": "somewebsite.com",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://picsum.photos/200/300",
             "membership": "gold"
         },
         {
@@ -37,7 +37,7 @@
             "Address": "234 Lane ln, A city",
             "Phone": 1234565678,
             "website": "somewebsite.com",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://picsum.photos/200/300",
             "membership": "platinum"
         },
         {
@@ -45,7 +45,7 @@
             "Address": "657 Lane ln, A city",
             "Phone": 1234565678,
             "website": "somewebsite.com",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://picsum.photos/200/300",
             "membership": "bronze"
         },
         {
@@ -53,7 +53,7 @@
             "Address": "657 Lane ln, A city",
             "Phone": 1234565678,
             "website": "somewebsite.com",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://picsum.photos/200/300",
             "membership": "bronze"
         },
         {
@@ -61,7 +61,7 @@
             "Address": "657 Lane ln, A city",
             "Phone": 1234565678,
             "website": "somewebsite.com",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://picsum.photos/200/300",
             "membership": "bronze"
         }
     ]
