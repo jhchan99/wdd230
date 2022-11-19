@@ -101,4 +101,39 @@
   .cards {
     width: 1200px;
   }
+
+
+
+
+  /*--------------- directory LIST-----------------*/
+
+
+  .menu {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 15px;
+  }
+
+  .list {
+    margin: 0 auto;
+  }
+
+  .list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+    background-color: #ebebeb;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px lightgray;
+    padding: 15px;
+  }
+
+  .list section>* {
+    margin: 0 1rem;
+    text-align: left;
+
+
+  }
 }

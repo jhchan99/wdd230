@@ -115,4 +115,10 @@
         width: 700px;
     }
 
+    .list section img {
+        display: grid;
+        grid-row: 1/2;
+        width: 25%;
+    }
+
 }

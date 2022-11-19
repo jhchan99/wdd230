@@ -1,6 +1,7 @@
 const currentTemp = document.querySelector("#current-temp");
 const currentWind = document.querySelector("#wind-speed");
 const weatherIcon = document.querySelector("#weather-icon");
+const chill = document.querySelector('#wind-chill');
 const captionDesc = document.querySelector("figcaption");
 
 const url =
@@ -33,33 +34,32 @@ apiFetch();
 // }
 
 function displayResults(weatherData) {
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-    currentWind.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
-    windChill
+    let temp = weatherData.main.temp;
+    let speed = weatherData.wind.speed;
+    currentTemp.innerHTML = `<strong>${temp.toFixed(0)}</strong>`;
+    currentWind.innerHTML = `<strong>${speed.toFixed(0)}</strong>`;
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
 
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", desc);
-    captionDesc.textContent = desc.toUpperCase();
+    captionDesc.textContent = desc;
+
+    chill.innerHTML = windChill(temp, speed);
+
 }
 
 
-const chill = document.querySelector('#wind-chill');
-let tempValue = currentTemp.innerHTML;
-let speedValue = currentWind.innerHTML;
 
 function windChill(t, s) {
-    let c = 'NA'
+    let c = 'N/A'
     if (t <= 50 && s > 3.0) {
         const r = Math.pow(s, .16);
         let x = 35.74 + (.6215 * t) - (35.75 * r) + (.4275 * t * r);
-        c = Math.trunc(x)
+        c = `${Math.trunc(x)}&degF`
     }
     return c;
 
 }
-
-chill.innerHTML = windChill(tempValue, speedValue);
 

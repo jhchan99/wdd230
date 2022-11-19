@@ -1,6 +1,11 @@
 const requestURL =
   "https://jhchan99.github.io/wdd230/chamber/data/directorydata.json";
-const cards = document.querySelector(".cards");
+const cards = document.querySelector(".grid");
+
+const gridButton = document.querySelector("#grid");
+const listButton = document.querySelector("#list");
+const display = document.querySelector("#cards");
+
 
 fetch(requestURL)
   .then(function (response) {
@@ -43,5 +48,18 @@ function displayDirectory(directory) {
   card.appendChild(portrait);
 
   // add/append the existing HTML div with the cards class with the section card
-  document.querySelector("div.cards").appendChild(card);
+  document.querySelector("#cards").appendChild(card);
+}
+
+listButton.addEventListener("click", showList);
+gridButton.addEventListener("click", showGrid);
+
+function showGrid() {
+  display.classList.add("grid");
+  display.classList.remove("list");
+}
+
+function showList() {
+  display.classList.add("list");
+  display.classList.remove("grid");
 }

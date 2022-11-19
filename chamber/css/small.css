@@ -167,6 +167,11 @@ input {
   font-size: 24px;
 }
 
+
+.weatherinput figcaption {
+  text-transform: capitalize;
+}
+
 .weatherinput img {
   width: 40%;
 }
@@ -398,26 +403,66 @@ input[type='radio']:checked:after {
   border: 2px solid white;
 }
 
-/*--------------- directory -----------------*/
+/*--------------- directory GRID-----------------*/
 
-.cards {
+.grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  flex-wrap: wrap;
-  margin: 0 auto;
   text-align: center;
 }
 
-.cards img {
+.grid img {
   margin: auto;
   max-width: 75%;
   margin-bottom: 15px;
 
 }
 
-.cards section {
+.grid h2 {
+  margin: 10px;
+}
+
+.grid section {
   background-color: #ebebeb;
   margin: 15px;
   border-radius: 10px;
   box-shadow: 10px 5px 5px lightgray;
+}
+
+/*--------------- directory LIST-----------------*/
+
+
+.menu {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 15px;
+}
+
+.list {
+  margin: 0 auto;
+}
+
+.list section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: start;
+  background-color: #ebebeb;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px lightgray;
+  padding: 15px;
+}
+
+.list section h2 {
+  padding-bottom: 15px;
+}
+
+.list section>* {
+  margin: 0 1rem;
+  text-align: left;
+}
+
+.list section img {
+  display: none;
 }
