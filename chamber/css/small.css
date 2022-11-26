@@ -432,7 +432,6 @@ input[type='radio']:checked:after {
   box-shadow: 10px 5px 5px lightgray;
 }
 
-<<<<<<< HEAD
 /*------------- contact us information ---------*/
 
 .contact {
@@ -456,42 +455,3 @@ input[type='radio']:checked:after {
 .contact form legend {
   text-align: left;
 }
-=======
-/*--------------- directory LIST-----------------*/
-
-
-.menu {
-  margin: 0 auto;
-  display: inline-block;
-  padding: 15px;
-}
-
-.list {
-  margin: 0 auto;
-}
-
-.list section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-items: start;
-  background-color: #ebebeb;
-  margin: 10px;
-  border-radius: 10px;
-  box-shadow: 10px 5px 5px lightgray;
-  padding: 15px;
-}
-
-.list section h2 {
-  padding-bottom: 15px;
-}
-
-.list section>* {
-  margin: 0 1rem;
-  text-align: left;
-}
-
-.list section img {
-  display: none;
-}
->>>>>>> 37d868377dd533fcc2c0d4be70d5f697255635cb
