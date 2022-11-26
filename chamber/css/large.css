@@ -22,14 +22,12 @@
   }
 
   .headermain {
-    display: flex;
     align-items: center;
   }
 
   .mainStuff {
     width: 1600px;
     margin: 0 auto;
-
   }
 
   .box1 {
@@ -96,10 +94,14 @@
     justify-content: flex-start;
   }
 
-
   /*---------- directory ------------*/
 
   .cards {
     width: 1200px;
+  }
+
+  /*---------contact ------------*/
+  .contact {
+    flex-direction: row;
   }
 }
