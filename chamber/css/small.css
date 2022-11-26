@@ -378,11 +378,6 @@ textarea {
   margin: 5px;
 }
 
-input[type="radio"] {
-  width: 30px;
-  height: 30px;
-}
-
 input[type="radio"]:after {
   width: 15px;
   height: 15px;
