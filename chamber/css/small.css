@@ -119,6 +119,9 @@ main {
 
 .box3 {
   grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .box3 a:link {

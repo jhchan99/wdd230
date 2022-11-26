@@ -3,6 +3,10 @@
     flex-direction: row;
   }
 
+  .mainStuff {
+    max-width: 1600px;
+  }
+
   .navigation li {
     display: block;
     /* change state in small view */
@@ -55,7 +59,7 @@
     grid-row: 3/3;
     justify-items: center;
     align-items: center;
-    align-content: center;
+    align-content: space-around;
   }
 
   .box6 {
