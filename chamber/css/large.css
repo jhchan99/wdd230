@@ -139,4 +139,10 @@
 
 
   }
+
+  /*---------contact--------*/
+
+  .contact {
+    flex-direction: row;
+  }
 }
