@@ -160,6 +160,22 @@ input {
   min-width: 20px;
 }
 
+.weatherinput {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+
+.weatherinput figcaption {
+  text-transform: capitalize;
+}
+
+.weatherinput img {
+  width: 40%;
+}
+
 .linkLogos {
   display: flex;
   flex-direction: row;
@@ -269,6 +285,7 @@ footer {
 
 form {
   display: grid;
+  gap: 10px;
   grid-template-columns: 1fr;
 }
 
@@ -359,34 +376,66 @@ textarea {
   margin: 5px;
 }
 
+<<<<<<< HEAD
 input[type="radio"] {
   width: 30px;
   height: 30px;
+=======
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+>>>>>>> 37d868377dd533fcc2c0d4be70d5f697255635cb
 }
 
-/*--------------- directory -----------------*/
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #b44418;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
 
-.cards {
+/*--------------- directory GRID-----------------*/
+
+.grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  flex-wrap: wrap;
-  margin: 0 auto;
   text-align: center;
 }
 
-.cards img {
+.grid img {
   margin: auto;
   max-width: 75%;
   margin-bottom: 15px;
 }
 
-.cards section {
+.grid h2 {
+  margin: 10px;
+}
+
+.grid section {
   background-color: #ebebeb;
   margin: 15px;
   border-radius: 10px;
   box-shadow: 10px 5px 5px lightgray;
 }
 
+<<<<<<< HEAD
 /*------------- contact us information ---------*/
 
 .contact {
@@ -410,3 +459,42 @@ input[type="radio"] {
 .contact form legend {
   text-align: left;
 }
+=======
+/*--------------- directory LIST-----------------*/
+
+
+.menu {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 15px;
+}
+
+.list {
+  margin: 0 auto;
+}
+
+.list section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: start;
+  background-color: #ebebeb;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px lightgray;
+  padding: 15px;
+}
+
+.list section h2 {
+  padding-bottom: 15px;
+}
+
+.list section>* {
+  margin: 0 1rem;
+  text-align: left;
+}
+
+.list section img {
+  display: none;
+}
+>>>>>>> 37d868377dd533fcc2c0d4be70d5f697255635cb
