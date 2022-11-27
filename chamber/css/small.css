@@ -22,11 +22,6 @@ header {
   width: 100%;
 }
 
-.spotlight img {
-  width: 50%;
-  padding: 10px;
-}
-
 h3 {
   font-family: "Noto Sans Display", sans-serif;
 }
@@ -148,18 +143,18 @@ input {
 .box3,
 .box4,
 .box5,
-.box6 {
+.spotlight {
   background-color: #816f8560;
   border-radius: 10px;
   padding: 15px;
 }
 
-.box6 {
+.spotlight {
   display: grid;
   grid-gap: 10px;
 }
 
-.box6 img {
+.spotlight img {
   min-width: 20px;
 }
 
@@ -185,7 +180,7 @@ input {
 }
 
 .linkLogos img {
-  width: 50px;
+  width: 50%;
   margin: 5px;
   border-radius: 4rem 4rem;
 }
