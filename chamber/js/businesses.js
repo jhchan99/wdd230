@@ -3,7 +3,6 @@ const requestURL =
 const cards = document.querySelector(".spotlight");
 
 const gridButton = document.querySelector("#grid");
-const listButton = document.querySelector("#list");
 const display = document.querySelector("#cards");
 
 fetch(requestURL)
@@ -24,10 +23,6 @@ function displayDirectory(directory) {
 
   // Change the textContent property of the h2 element to contain the directorys full name
   name.textContent = `${directory.name}`;
-  address.textContent = `${directory.Address}`;
-  phone.textContent = `${directory.Phone}`;
-  website.textContent = `${directory.website}`;
-  membership.textContent = `${directory.membership}`;
 
   // build the image attributes by using the setAtribute method for the src, alt, and loading attribute values
   portrait.setAttribute("src", directory.image);
@@ -36,10 +31,6 @@ function displayDirectory(directory) {
 
   // Add/append the section(card) with the h2 element
   card.appendChild(name);
-  card.appendChild(address);
-  card.appendChild(phone);
-  card.appendChild(website);
-  card.appendChild(membership);
   card.appendChild(portrait);
 
   // add/append the existing HTML div with the cards class with the section card

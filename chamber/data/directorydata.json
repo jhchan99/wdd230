@@ -1,68 +1,68 @@
 {
-    "directory": [
-        {
-            "name": "James Chan",
-            "Address": "123 Lane ln, A city",
-            "Phone": 1234565678,
-            "website": "somewebsite.com",
-            "image": "https://picsum.photos/200/300",
-            "membership": "bronze"
-        },
-        {
-            "name": "Joffrey Barbargo",
-            "Address": "2463 Lane ln, A city",
-            "Phone": 1234565678,
-            "website": "somewebsite.com",
-            "image": "https://picsum.photos/200/300",
-            "membership": "platinum"
-        },
-        {
-            "name": "Kneik Haus",
-            "Address": "8356 Lane ln, A city",
-            "Phone": 1234565678,
-            "website": "somewebsite.com",
-            "image": "https://picsum.photos/200/300",
-            "membership": "bronze"
-        },
-        {
-            "name": "Lodhe Goudh",
-            "Address": "084 Lane ln, A city",
-            "Phone": 1234565678,
-            "website": "somewebsite.com",
-            "image": "https://picsum.photos/200/300",
-            "membership": "gold"
-        },
-        {
-            "name": "Timmy Chan",
-            "Address": "234 Lane ln, A city",
-            "Phone": 1234565678,
-            "website": "somewebsite.com",
-            "image": "https://picsum.photos/200/300",
-            "membership": "platinum"
-        },
-        {
-            "name": "Jimmy Chan",
-            "Address": "657 Lane ln, A city",
-            "Phone": 1234565678,
-            "website": "somewebsite.com",
-            "image": "https://picsum.photos/200/300",
-            "membership": "bronze"
-        },
-        {
-            "name": "Mored Lapit",
-            "Address": "657 Lane ln, A city",
-            "Phone": 1234565678,
-            "website": "somewebsite.com",
-            "image": "https://picsum.photos/200/300",
-            "membership": "bronze"
-        },
-        {
-            "name": "Hosur Maelut",
-            "Address": "657 Lane ln, A city",
-            "Phone": 1234565678,
-            "website": "somewebsite.com",
-            "image": "https://picsum.photos/200/300",
-            "membership": "bronze"
-        }
-    ]
+  "directory": [
+    {
+      "name": "James Chan",
+      "Address": "123 Lane ln, A city",
+      "Phone": 1234565678,
+      "website": "somewebsite.com",
+      "image": "https://picsum.photos/200/300",
+      "membership": "1"
+    },
+    {
+      "name": "Joffrey Barbargo",
+      "Address": "2463 Lane ln, A city",
+      "Phone": 1234565678,
+      "website": "somewebsite.com",
+      "image": "https://picsum.photos/200/300",
+      "membership": "2"
+    },
+    {
+      "name": "Kneik Haus",
+      "Address": "8356 Lane ln, A city",
+      "Phone": 1234565678,
+      "website": "somewebsite.com",
+      "image": "https://picsum.photos/200/300",
+      "membership": "3"
+    },
+    {
+      "name": "Lodhe Goudh",
+      "Address": "084 Lane ln, A city",
+      "Phone": 1234565678,
+      "website": "somewebsite.com",
+      "image": "https://picsum.photos/200/300",
+      "membership": "3"
+    },
+    {
+      "name": "Timmy Chan",
+      "Address": "234 Lane ln, A city",
+      "Phone": 1234565678,
+      "website": "somewebsite.com",
+      "image": "https://picsum.photos/200/300",
+      "membership": "2"
+    },
+    {
+      "name": "Jimmy Chan",
+      "Address": "657 Lane ln, A city",
+      "Phone": 1234565678,
+      "website": "somewebsite.com",
+      "image": "https://picsum.photos/200/300",
+      "membership": "3"
+    },
+    {
+      "name": "Mored Lapit",
+      "Address": "657 Lane ln, A city",
+      "Phone": 1234565678,
+      "website": "somewebsite.com",
+      "image": "https://picsum.photos/200/300",
+      "membership": "2"
+    },
+    {
+      "name": "Hosur Maelut",
+      "Address": "657 Lane ln, A city",
+      "Phone": 1234565678,
+      "website": "somewebsite.com",
+      "image": "https://picsum.photos/200/300",
+      "membership": "1"
+    }
+  ]
 }

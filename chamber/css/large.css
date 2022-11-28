@@ -62,7 +62,7 @@
     align-content: space-around;
   }
 
-  .box6 {
+  .spotlight {
     grid-column: 3/3;
     grid-row: 1/4;
     display: grid;
