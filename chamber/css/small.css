@@ -175,12 +175,12 @@ input {
 
 .linkLogos {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  width: 150px;
+  margin: 15px;
 }
 
 .linkLogos img {
-  width: 50%;
+  width: 85%;
   margin: 5px;
   border-radius: 4rem 4rem;
 }
