@@ -8,6 +8,7 @@
     padding: 15px;
   }
 
+
   .box1,
   .box3 {
     grid-column: 1/2;
