@@ -20,7 +20,7 @@
       "name": "Kneik Haus",
       "Address": "8356 Lane ln, A city",
       "Phone": 1234565678,
-      "website": "somewebsite.com",
+      "website": "moving.com",
       "image": "images/ruck.png",
       "membership": "3"
     },
@@ -28,8 +28,8 @@
       "name": "Lodhe Goudh",
       "Address": "084 Lane ln, A city",
       "Phone": 1234565678,
-      "website": "somewebsite.com",
-      "image": "images/sandbox.png",
+      "website": "playset.com",
+      "image": "images/sandbox2.png",
       "membership": "3"
     },
     {
@@ -44,8 +44,8 @@
       "name": "Jimmy Chan",
       "Address": "657 Lane ln, A city",
       "Phone": 1234565678,
-      "website": "somewebsite.com",
-      "image": "images/maths.jpg",
+      "website": "dogsitter.com",
+      "image": "images/dog.png",
       "membership": "3"
     },
     {
