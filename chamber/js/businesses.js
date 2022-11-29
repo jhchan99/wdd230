@@ -26,6 +26,7 @@ if (document.querySelector('.spotlight')) {
     .then(response => response.json())
     .then(json => {
       const members = json['directory'];
+      console.log(members);
       const gold = members.filter(x => x.membership >= 2);
       console.log(gold);
       const spotsToFill = Math.min(gold.length, 3);
