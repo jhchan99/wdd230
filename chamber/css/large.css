@@ -104,12 +104,6 @@
     width: 1200px;
   }
 
-  /*---------contact ------------*/
-  .contact {
-    flex-direction: row;
-  }
-}
-
 
 
   /*--------------- directory LIST-----------------*/
@@ -149,4 +143,5 @@
   .contact {
     flex-direction: row;
   }
+
 }

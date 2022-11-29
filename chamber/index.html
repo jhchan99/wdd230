@@ -1,186 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="chamber of commerce site for kennewick washington, this site will feature things that help asian american immigrants adapt to their new town"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&family=Noto+Sans+SC&family=Noto+Serif&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/normalize2.css" />
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
-    <title>Kennewick Chamber of Commerce</title>
-  </head>
 
-  <body>
-    <header>
-      <span id="sitebanner"></span>
-      <div class="headermain">
-        <div class="headertop">
-          <div class="titlelogo">
-            <picture
-              ><img
-                class="websiteLogo"
-                src="images/site_logo.webp"
-                alt="logo for chamber of commerce of kennewick"
-            /></picture>
-            <div class="headings">
-              <h2>Kennewick</h2>
-              <div>
-                <p>Chamber of Commerce</p>
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="chamber of commerce site for kennewick washington, this site will feature things that help asian american immigrants adapt to their new town" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&family=Noto+Sans+SC&family=Noto+Serif&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize2.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <title>Kennewick Chamber of Commerce</title>
+</head>
+
+<body>
+  <header>
+    <span id="sitebanner"></span>
+    <div class="headermain">
+      <div class="headertop">
+        <div class="titlelogo">
+          <picture><img class="websiteLogo" src="images/site_logo.webp"
+              alt="logo for chamber of commerce of kennewick" /></picture>
+          <div class="headings">
+            <h2>Kennewick</h2>
+            <div>
+              <p>Chamber of Commerce</p>
             </div>
           </div>
-          <nav class="navigation">
-            <ul>
-              <li>
-                <a class="ham" href="#"
-                  ><img src="images/hamburger.jpg" alt="hamburger menu icon"
-                /></a>
-              </li>
-              <li>
-                <a href="https://jhchan99.github.io/wdd230/chamber/index.html"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a href="https://jhchan99.github.io/wdd230/chamber/discover"
-                  >Discover</a
-                >
-              </li>
-              <li>
-                <a href="https://jhchan99.github.io/wdd230/chamber/join"
-                  >Join</a
-                >
-              </li>
-              <li>
-                <a href="https://jhchan99.github.io/wdd230/chamber/directory"
-                  >Directory</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://jhchan99.github.io/wdd230/chamber/contacts.html"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </nav>
-          <div class="linkLogos">
-            <a href="https://www.facebook.com/"
-              ><img src="images/facebook.webp" alt="facebook logo"
-            /></a>
-            <a href="https://www.linkedin.com/feed/"
-              ><img src="images/linkedinlogo.webp" alt="linkedin logo"
-            /></a>
-          </div>
+        </div>
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a class="ham" href="#"><img src="images/hamburger.jpg" alt="hamburger menu icon" /></a>
+            </li>
+            <li>
+              <a href="https://jhchan99.github.io/wdd230/chamber/index.html">Home</a>
+            </li>
+            <li>
+              <a href="https://jhchan99.github.io/wdd230/chamber/discover">Discover</a>
+            </li>
+            <li>
+              <a href="https://jhchan99.github.io/wdd230/chamber/join">Join</a>
+            </li>
+            <li>
+              <a href="https://jhchan99.github.io/wdd230/chamber/directory">Directory</a>
+            </li>
+            <li>
+              <a href="https://jhchan99.github.io/wdd230/chamber/contacts.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="linkLogos">
+          <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="facebook logo" /></a>
+          <a href="https://www.linkedin.com/feed/"><img src="images/linkedinlogo.webp" alt="linkedin logo" /></a>
         </div>
       </div>
-      <div class="datediv">
-        <span id="currentdate"></span>
+    </div>
+    <div class="datediv">
+      <span id="currentdate"></span>
+    </div>
+  </header>
+  <main>
+    <section class="mainStuff">
+      <div class="box1">
+        <div class="weatherinput">
+          <h3>Weather</h3>
+          <picture><img src="" alt="" id="weather-icon" /></picture>
+          <div><span id="current-temp"></span>&deg;F</div>
+          <figcaption></figcaption>
+          <div>Wind Speed: <span id="wind-speed"></span> MPH</div>
+          <div>Wind Chill: <span id="wind-chill"></span></div>
+        </div>
       </div>
-    </header>
-    <main>
-      <section class="mainStuff">
-        <div class="box1">
-          <div class="weatherinput">
-            <h3>Weather</h3>
-            <picture><img src="" alt="" id="weather-icon" /></picture>
-            <div><span id="current-temp"></span>&deg;F</div>
-            <figcaption></figcaption>
-            <div>Wind Speed: <span id="wind-speed"></span> MPH</div>
-            <div>Wind Chill: <span id="wind-chill"></span></div>
-          </div>
-        </div>
-        <div class="box2">
-          <h3>News Release</h3>
-          <p>
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos. Phasellus purus magna, efficitur eget erat
-            in, viverra feugiat eros. Aliquam tempor mauris sit amet sagittis
-            eleifend. Maecenas non aliquam nunc. Integer finibus magna nec enim
-            lacinia, eu gravida libero elementum. Nulla vestibulum at mauris nec
-            ultrices. Aenean odio lacus, ultricies ac laoreet ac, porttitor eget
-            urna. Donec viverra blandit sem a tincidunt. Praesent convallis ut
-            massa id ultricies. Curabitur efficitur turpis vitae nisl porta
-            pretium. Aenean ultricies sapien sapien, eget sodales mi convallis
-            sed. Donec non turpis leo.
-          </p>
-        </div>
-        <div class="box3">
-          <h3>Ribbon Cutting</h3>
-          <p><strong>The Tumbleweed</strong></p>
-          <p>Join us for the Grand Opening of the The Tumbleweed</p>
-          <a href="moreinfo.fake">more info...</a>
-        </div>
-        <div class="box4">
-          <picture>
-            <source
-              media="(min-width: 800px)"
-              srcset="images/girlhero800.jpg 1x"
-            />
-            <source
-              media="(min-width: 600px)"
-              srcset="images/girlhero600.jpg 1x"
-            />
-            <source
-              media="(min-width: 400px)"
-              srcset="images/girlhero400.jpg 1x"
-            />
-            <source
-              media="(min-width: 300px)"
-              srcset="images//girlhero300.jpg 1x"
-            />
-            <img
-              src="images/girlhero.jpg"
-              alt="girl with her friends in the park"
-            />
-          </picture>
-        </div>
-        <div class="box5">
-          <button>Join Us</button>
-          <p>Discover how to join the Chamber of Commerce here in Kennewick</p>
-        </div>
-        <div class="spotlight">
-          <hr />
-          <div class="grid" id="cards"></div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footercombo">
-        <div class="footertop">
-          <img
-            class="footerimg"
-            src="images/placeholder.png"
-            alt="logo for chamber of commerce of kennewick"
-          />
-          <p>Kennewick Chamber of Commerce</p>
-        </div>
-        <div class="location">Kennewick, WA 99336</div>
+      <div class="box2">
+        <h3>News Release</h3>
+        <p>
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+          per inceptos himenaeos. Phasellus purus magna, efficitur eget erat
+          in, viverra feugiat eros. Aliquam tempor mauris sit amet sagittis
+          eleifend. Maecenas non aliquam nunc. Integer finibus magna nec enim
+          lacinia, eu gravida libero elementum. Nulla vestibulum at mauris nec
+          ultrices. Aenean odio lacus, ultricies ac laoreet ac, porttitor eget
+          urna. Donec viverra blandit sem a tincidunt. Praesent convallis ut
+          massa id ultricies. Curabitur efficitur turpis vitae nisl porta
+          pretium. Aenean ultricies sapien sapien, eget sodales mi convallis
+          sed. Donec non turpis leo.
+        </p>
       </div>
-      <section class="bottomfooter">
-        <div>
-          &copy; <span id="currentyear"></span> Kennewick Chamber | James Chan |
-          WDD 230 Project |
-        </div>
-        <div>
-          Weather provided by OpenWeather AP: https://openweathermap.org/api
-        </div>
-        <div>Last Modification: <span id="lastModif"></span></div>
-      </section>
-    </footer>
-    <script src="js/index.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/businesses.js"></script>
-  </body>
+      <div class="box3">
+        <h3>Ribbon Cutting</h3>
+        <p><strong>The Tumbleweed</strong></p>
+        <p>Join us for the Grand Opening of the The Tumbleweed</p>
+        <a href="moreinfo.fake">more info...</a>
+      </div>
+      <div class="box4">
+        <picture>
+          <source media="(min-width: 800px)" srcset="images/girlhero800.jpg 1x" />
+          <source media="(min-width: 600px)" srcset="images/girlhero600.jpg 1x" />
+          <source media="(min-width: 400px)" srcset="images/girlhero400.jpg 1x" />
+          <source media="(min-width: 300px)" srcset="images//girlhero300.jpg 1x" />
+          <img src="images/girlhero.jpg" alt="girl with her friends in the park" />
+        </picture>
+      </div>
+      <div class="box5">
+        <button>Join Us</button>
+        <p>Discover how to join the Chamber of Commerce here in Kennewick</p>
+      </div>
+      <div class="spotlight">
+        <hr />
+        <div class="grid" id="cards"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footercombo">
+      <div class="footertop">
+        <img class="footerimg" src="images/site_logo.webp" alt="logo for chamber of commerce of kennewick" />
+        <p>Kennewick Chamber of Commerce</p>
+      </div>
+      <div class="location">Kennewick, WA 99336</div>
+    </div>
+    <section class="bottomfooter">
+      <div>
+        &copy; <span id="currentyear"></span> Kennewick Chamber | James Chan |
+        WDD 230 Project |
+      </div>
+      <div>
+        Weather provided by OpenWeather AP: https://openweathermap.org/api
+      </div>
+      <div>Last Modification: <span id="lastModif"></span></div>
+    </section>
+  </footer>
+  <script src="js/index.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="js/businesses.js"></script>
+</body>
+
 </html>
