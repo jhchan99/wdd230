@@ -9,11 +9,11 @@
       "membership": "1"
     },
     {
-      "name": "Joffrey Barbargo",
+      "name": "Math Tutor",
       "Address": "2463 Lane ln, A city",
       "Phone": 1234565678,
       "website": "somewebsite.com",
-      "image": "https://picsum.photos/200/300",
+      "image": "images/maths(1).jpg",
       "membership": "2"
     },
     {
@@ -29,7 +29,7 @@
       "Address": "084 Lane ln, A city",
       "Phone": 1234565678,
       "website": "playset.com",
-      "image": "images/sandbox2.png",
+      "image": "images/sandbox(2).png",
       "membership": "3"
     },
     {
