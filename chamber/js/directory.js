@@ -24,7 +24,6 @@ function displayDirectory(directory) {
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let website = document.createElement("p");
-  let membership = document.createElement("p");
   let portrait = document.createElement("img");
 
   // Change the textContent property of the h2 element to contain the directorys full name
@@ -32,7 +31,6 @@ function displayDirectory(directory) {
   address.textContent = `${directory.Address}`;
   phone.textContent = `${directory.Phone}`;
   website.textContent = `${directory.website}`;
-  membership.textContent = `${directory.membership}`;
 
   // build the image attributes by using the setAtribute method for the src, alt, and loading attribute values
   portrait.setAttribute("src", directory.image);
@@ -44,7 +42,6 @@ function displayDirectory(directory) {
   card.appendChild(address);
   card.appendChild(phone);
   card.appendChild(website);
-  card.appendChild(membership);
   card.appendChild(portrait);
 
   // add/append the existing HTML div with the cards class with the section card

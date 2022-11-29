@@ -21,7 +21,7 @@
       "Address": "8356 Lane ln, A city",
       "Phone": 1234565678,
       "website": "somewebsite.com",
-      "image": "https://picsum.photos/200/300",
+      "image": "images/ruck.png",
       "membership": "3"
     },
     {
@@ -29,7 +29,7 @@
       "Address": "084 Lane ln, A city",
       "Phone": 1234565678,
       "website": "somewebsite.com",
-      "image": "https://picsum.photos/200/300",
+      "image": "images/sandbox.png",
       "membership": "3"
     },
     {
@@ -45,7 +45,7 @@
       "Address": "657 Lane ln, A city",
       "Phone": 1234565678,
       "website": "somewebsite.com",
-      "image": "https://picsum.photos/200/300",
+      "image": "images/maths.jpg",
       "membership": "3"
     },
     {
