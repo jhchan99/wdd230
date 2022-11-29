@@ -45,9 +45,11 @@ function displayDirectory(directory, spot) {
   // create elements to add to the document
   let card = document.createElement("section");
   let name = document.createElement("h3");
+  let website = document.createElement("p");
   let portrait = document.createElement("img");
   // Change the textContent property of the h2 element to contain the directorys full name
   name.textContent = `${directory.name}`;
+  website.textContent = `${directory.website}`;
 
   // build the image attributes by using the setAtribute method for the src, alt, and loading attribute values
   portrait.setAttribute("src", directory.image);
@@ -57,6 +59,7 @@ function displayDirectory(directory, spot) {
   // Add/append the section(card) with the h2 element
   card.appendChild(name);
   card.appendChild(portrait);
+  card.appendChild(website);
 
   // add/append the existing HTML div with the cards class with the section card
   document.querySelector("#cards").appendChild(card);
