@@ -8,13 +8,6 @@
     padding: 15px;
   }
 
-  .headertop {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    place-items: center;
-  }
-
   .box1,
   .box3 {
     grid-column: 1/2;
