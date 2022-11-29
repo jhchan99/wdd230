@@ -50,7 +50,6 @@ function displayDirectory(directory, spot) {
   // Change the textContent property of the h2 element to contain the directorys full name
   name.textContent = `${directory.name}`;
   website.textContent = `${directory.website}`;
-
   // build the image attributes by using the setAtribute method for the src, alt, and loading attribute values
   portrait.setAttribute("src", directory.image);
   portrait.setAttribute("alt", `Portrait of ${directory.name}`);
