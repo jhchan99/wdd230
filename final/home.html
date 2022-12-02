@@ -1,13 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="busines site for Bountiful Foods, home page contains weather, announcements, etc."
-    <title>Document</title>
+    <meta name="description"
+        content="busines site for Bountiful Foods, home page contains weather, announcements, etc.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize2.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <title>Bountiful Foods: Home</title>
 </head>
+
 <body>
-    
+    <header>
+        <div>
+            <h1>Bountiful Foods</h1>
+            <picture>
+                <img src="https://via.placeholder.com/100x100" alt="company logo">
+            </picture>
+        </div>
+        <div>
+            <p>contact information: 1293295812</p>
+            <img src="https://via.placeholder.com/50x50" alt="facebook logo">
+            <img src="https://via.placeholder.com/50x50" alt="linkedin logo">
+            <img src="https://via.placeholder.com/50x50" alt="instagram logo">
+        </div>
+        <div class="navigation">
+            <ul><a href="">Fresh</a></ul>
+            <ul><a href="">About Us</a></ul>
+        </div>
+    </header>
+    <main>
+        <section class="slideshow">
+            <h2>Touring California's Coast</h2>
+            <div class="slideshow container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="https://via.placeholder.com/350x150" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="https://via.placeholder.com/350x150" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="https://via.placeholder.com/350x150" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="https://via.placeholder.com/350x150" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10096;</a>
+                <a class="next" onclick="plusSlides(1)">&#10097;</a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+        <section class="makedrink">
+            <h2>Make Your Own Drink</h2>
+            <button><a href="">Make it Fresh!</a></button>
+            <div>Drink Count: </div>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <div></div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            &copy; <span id="currentyear"></span> Kennewick Chamber | James Chan |
+            WDD 230 Project |
+        </div>
+        <div>
+            Weather provided by OpenWeather AP: https://openweathermap.org/api
+        </div>
+    </footer>
+
 </body>
+
 </html>

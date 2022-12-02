@@ -2,6 +2,8 @@ const requestURL =
   "https://jhchan99.github.io/wdd230/chamber/data/directorydata.json";
 const cards = document.querySelector(".spotlight");
 
+/*code collaborated on with Jodie Couch*/
+
 const gridButton = document.querySelector("#grid");
 const display = document.querySelector("#cards");
 
