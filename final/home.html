@@ -14,51 +14,60 @@
         rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize2.css">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/slideshow.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+
     <title>Bountiful Foods: Home</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <h1>Bountiful Foods</h1>
-            <picture>
-                <img src="https://via.placeholder.com/100x100" alt="company logo">
-            </picture>
-        </div>
-        <div>
-            <p>contact information: 1293295812</p>
-            <img src="https://via.placeholder.com/50x50" alt="facebook logo">
-            <img src="https://via.placeholder.com/50x50" alt="linkedin logo">
-            <img src="https://via.placeholder.com/50x50" alt="instagram logo">
-        </div>
-        <div class="navigation">
-            <ul><a href="">Fresh</a></ul>
-            <ul><a href="">About Us</a></ul>
-        </div>
+        <nav>
+            <div>
+                <picture class="sitelogo">
+                    <img src="images/sitelogo.webp" alt="company logo">
+                </picture>
+            </div>
+            <div class="contacts">
+                <p>Customer Support: (129) 329-5812</p>
+                <img src="https://via.placeholder.com/50x50" alt="facebook logo">
+                <img src="https://via.placeholder.com/50x50" alt="linkedin logo">
+                <img src="https://via.placeholder.com/50x50" alt="instagram logo">
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="" class="list-item">Home</a></li>
+                    <li><a href="" class="list-item">Fresh</a></li>
+                    <li><a href="" class="list-item">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="slideshow">
             <h2>Touring California's Coast</h2>
-            <div class="slideshow container">
+            <div class="slideshow-container">
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 4</div>
-                    <img src="https://via.placeholder.com/350x150" style="width:100%">
-                    <div class="text">Caption Text</div>
+                    <img src="images/apple-tree-640px-web.webp">
+                    <div class="text">Something to do with Fruit</div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 4</div>
-                    <img src="https://via.placeholder.com/350x150" style="width:100%">
-                    <div class="text">Caption Text</div>
+                    <img src="images/fruit-stand-640px.jpg">
+                    <div class="text">Something to do with Farms</div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">3 / 4</div>
-                    <img src="https://via.placeholder.com/350x150" style="width:100%">
-                    <div class="text">Caption Text</div>
+                    <img src="images/green-fruit-640px.jpg">
+                    <div class="text">Something to do with keeping fresh</div>
                 </div>
                 <div class="mySlides fade">
                     <div class="numbertext">4 / 4</div>
-                    <img src="https://via.placeholder.com/350x150" style="width:100%">
-                    <div class="text">Caption Text</div>
+                    <img src="images/red-fruit-640px.jpg">
+                    <div class="text">a local food truck or shop</div>
                 </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10096;</a>
                 <a class="next" onclick="plusSlides(1)">&#10097;</a>
@@ -67,6 +76,7 @@
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </section>
         <section class="makedrink">
@@ -76,7 +86,13 @@
         </section>
         <section class="weather">
             <h2>Weather</h2>
-            <div></div>
+            <div class="weatherinput">
+                <picture><img src="" alt="" id="weather-icon" /></picture>
+                <div><span id="current-temp"></span>&deg;F</div>
+                <figcaption></figcaption>
+                <div>Wind Speed: <span id="wind-speed"></span> MPH</div>
+                <div>Wind Chill: <span id="wind-chill"></span></div>
+            </div>
         </section>
     </main>
     <footer>

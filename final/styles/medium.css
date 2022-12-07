@@ -1,0 +1,42 @@
+@media only screen and (min-width: 900px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contacts {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+
+    .slideshow {
+        grid-column: 2/2;
+        grid-row: 1/3;
+    }
+
+    .makedrink {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+
+
+    .mySlides img {
+        width: 50rem;
+    }
+
+
+}
