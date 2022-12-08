@@ -5,7 +5,7 @@ const chill = document.querySelector('#wind-chill');
 const captionDesc = document.querySelector("figcaption");
 
 const url =
-    "https://api.openweathermap.org/data/2.5/weather?lat=64.8378&lon=-147.7164&appid=532c6642b652353eefe1bf815d1cc36a&units=Imperial";
+    "https://api.openweathermap.org/data/2.5/weather?lat=46.2113&lon=-119.1372&appid=532c6642b652353eefe1bf815d1cc36a&units=Imperial";
 
 async function apiFetch() {
     try {
@@ -42,9 +42,9 @@ function displayResults(weatherData) {
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
 
+    captionDesc.textContent = desc;
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", desc);
-    captionDesc.textContent = desc;
 
     chill.innerHTML = windChill(temp, speed);
 
