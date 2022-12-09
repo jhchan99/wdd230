@@ -83,29 +83,45 @@
         </section>
         <section class="makedrink">
             <h2>Make Your Own Drink</h2>
-            <form method="get" action="personaldrink.html">
+            <form method="get" id="fruitForm">
                 <fieldset>
                     <legend>We need your name and email to keep track of your drinks!</legend>
-                    <label for="personal" class="top">First Name* <input type="text" name="fname" required /></label>
-                    <label for="personal" class="top">Email*<input type="email" name="email"
-                            placeholder="someone@gmail.com" required /></label>
-                    <label for="personal" class="top">Phone <input type="tel" name="phone" placeholder="1234556666"
+                    <label for="name" class="top">First Name* <input type="text" name="fname" id="firstname"
                             required /></label>
+                    <label for="email" class="top">Email*<input type="email" name="email" id="email"
+                            placeholder="someone@gmail.com" required /></label>
+                    <label for="phone" class="top">Phone <input type="tel" name="phone" id="phone"
+                            placeholder="1234556666" required /></label>
                 </fieldset>
                 <fieldset>
                     <legend>Pick 3 main ingredients and we'll take care of the rest!</legend>
-                    <label for="fruits" class="pickfruit">Choose your first fruit:</label>
-                    <select id="fruit" name="fruit"></select>
-                    <label for="fruits" class="pickfruit">Choose your second fruit:</label>
-                    <select id="fruit1" name="fruit"></select>
-                    <label for="fruits" class="pickfruit">Choose your third fruit:</label>
-                    <select id="fruit2" name="fruit"></select>
+                    <label for="fruit1" class="pickfruit">Choose your first fruit:</label>
+                    <select id="fruit1" name="fruit1"></select>
+                    <label for="fruit2" class="pickfruit">Choose your second fruit:</label>
+                    <select id="fruit2" name="fruit2"></select>
+                    <label for="fruit3" class="pickfruit">Choose your third fruit:</label>
+                    <select id="fruit3" name="fruit3"></select>
+                    <label class="top description">Any special instructions?
+                        <textarea name="extrainfo" cols="100" rows="10"></textarea>
+                    </label>
                 </fieldset>
-                <div id="submit">
-                    <input type="submit" value="Make it Fresh!" class="submitBtn" />
-                </div>
+                <button type="submit">Make it Fresh!</button>
             </form>
             <div class="drinkcount"><strong> Drink Count: </strong></div>
+            <table id="information">
+                <tr>
+                    <th>Name</th>
+                    <th>Fruit</th>
+                    <th>Fruit</th>
+                    <th>Fruit</th>
+                    <th>Extra Info</th>
+                    <th>Carbs</th>
+                    <th>Protein</th>
+                    <th>Fat</th>
+                    <th>Sugar</th>
+                    <th>Calories</th>
+                </tr>
+            </table>
         </section>
     </main>
     <footer>
