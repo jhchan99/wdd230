@@ -84,7 +84,6 @@ button a {
 footer {
     background-color: #fbf3e3;
     position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
@@ -207,11 +206,50 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    font-size: 32px;
 }
 
 .weatherinput picture {
     grid-column: 1/1;
 }
+
+.weatherinput picture img {
+    width: 65%;
+}
+
+/*----------Small phone view---------*/
+.navigation {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: #553d39;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1.75rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover {
+    color: #ebebeb;
+    background-color: #553d39;
+}
+
 
 /*----------hambutton---------*/
 
@@ -235,8 +273,8 @@ form {
 
 form fieldset {
     margin: 2rem 0 2rem;
-    border: 1px dashed #553d39;
-    border-radius: 10px;
+    border: 1px solid #553d39;
+    border-radius: 3px;
 }
 
 form legend {
@@ -264,7 +302,7 @@ form label.top select {
     color: black;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #fbf3e350;
 }
 
 form label.sbs {
@@ -320,5 +358,18 @@ form select {
     color: black;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #fbf3e350;
+}
+
+textarea {
+    display: block;
+    font-size: 16px;
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #fbf3e350;
+    margin: 5px;
 }
