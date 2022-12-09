@@ -224,3 +224,101 @@ footer {
     max-width: 1em;
     height: fit-content;
 }
+
+/*-----------------FORM---------------*/
+
+form {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
+form fieldset {
+    margin: 2rem 0 2rem;
+    border: 1px dashed #553d39;
+    border-radius: 10px;
+}
+
+form legend {
+    text-align: center;
+    color: #553d39;
+    margin: 1rem 1rem;
+    padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding: 1rem 0 0;
+    color: #553d39;
+    font-size: 21px;
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    font-size: 16px;
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+}
+
+.description {
+    color: #553d39;
+    font-size: 16px;
+    padding: 0 2% 1rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #553d39;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+    color: #553d39;
+    background-color: #fbf3e3;
+}
+
+form form label.top input:required {
+    border-left: solid #9c2c13 6px;
+}
+
+form label.top input:required:valid {
+    border-left: solid green 6px;
+}
+
+form label.top .description {
+    width: 100%;
+    height: 20rem;
+    max-width: 20rem;
+}
+
+form label.pickfruit {
+    font-size: 21px;
+}
+
+form select {
+    display: block;
+    font-size: 16px;
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
