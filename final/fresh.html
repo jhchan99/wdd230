@@ -18,6 +18,7 @@
     <script src="scripts/slideshow.js" defer></script>
     <script src="scripts/hambutton.js" defer></script>
     <script src="scripts/general.js" defer></script>
+    <script src="scripts/fruitpicker.js" defer></script>
 
     <title>Bountiful Foods: Fresh</title>
 </head>
@@ -82,6 +83,25 @@
         </section>
         <section class="makedrink">
             <h2>Make Your Own Drink</h2>
+            <form method="get" action="personaldrink.html">
+                <fieldset>
+                    <legend>We need your name and email to keep track of your drinks!</legend>
+                    <label for="personal" class="top">First Name* <input type="text" name="fname" required /></label>
+                    <label for="personal" class="top">Email*<input type="email" name="email"
+                            placeholder="someone@gmail.com" required /></label>
+                    <label for="personal" class="top">Phone <input type="tel" name="phone" placeholder="1234556666"
+                            required /></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick 3 main ingredients and we'll take care of the rest!</legend>
+                    <label for="fruits" class="pickfruit">Choose your first fruit:</label>
+                    <select id="fruit" name="fruit"></select>
+                    <label for="fruits" class="pickfruit">Choose your second fruit:</label>
+                    <select id="fruit1" name="fruit"></select>
+                    <label for="fruits" class="pickfruit">Choose your third fruit:</label>
+                    <select id="fruit2" name="fruit"></select>
+                </fieldset>
+            </form>
             <button><a href="">Make it Fresh!</a></button>
             <div class="drinkcount"><strong> Drink Count: </strong></div>
         </section>
