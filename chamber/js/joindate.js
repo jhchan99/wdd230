@@ -1,1 +1,1 @@
-document.querySelector("#dateStamp").value = d;
+document.querySelector("#dateStamp").value = new Date();

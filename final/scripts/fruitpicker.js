@@ -1,6 +1,7 @@
 const requestURL =
     "https://brotherblazzard.github.io/canvas-content/fruit.json";
 
+document.querySelector("#dateStamp").value = new Date();
 const populate = document.querySelectorAll('#fruit');
 
 fetch(requestURL)
@@ -62,6 +63,26 @@ function handleSubmit(event) {
     console.log({ value });
 
     createTable(value);
+
+    const fruitname = value.fruit1
+
+
+    function getNutrition(fruits, name) {
+
+        return fruits.name === name;
+
+
+    }
+
+    fetch(requestURL)
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (jsonObject) {
+            console.table(jsonObject);
+            const directory = jsonObject;
+            console.log(directory.find(getNutrition(fruitname)));
+        });
 }
 
 
@@ -78,20 +99,25 @@ function createTable(values) {
     let fruit2 = document.createElement("td");
     let fruit3 = document.createElement("td");
     let info = document.createElement("td");
+    let date = document.createElement("td")
     let carbs = document.createElement("td");
 
     name.textContent = `${values.fname}`;
     fruit1.textContent = `${values.fruit1}`;
     fruit2.textContent = `${values.fruit2}`;
     fruit3.textContent = `${values.fruit3}`;
-    info.textContent = `${values.extrainfo}`
+    info.textContent = `${values.extrainfo}`;
+    date.textContent = `${values.formDate}`;
 
     row.appendChild(name);
     row.appendChild(fruit1);
     row.appendChild(fruit2);
     row.appendChild(fruit3);
     row.appendChild(info);
+    row.appendChild(date);
 
     document.querySelector("#information").appendChild(row);
-
 }
+
+
+
