@@ -53,5 +53,24 @@
         width: 50rem;
     }
 
+    .aboutus {
+        display: grid;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .why {
+        grid-column: 1/2;
+    }
+
+    .contact {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .find {
+        grid-column: 2/3;
+    }
+
 
 }

@@ -15,6 +15,7 @@ h2 {
     font-family: "Ubuntu", sans-serif;
 }
 
+
 li {
     list-style: none;
 }
@@ -63,6 +64,14 @@ a {
     color: #fbf3e3;
 }
 
+.about {
+    grid-column: 1/2;
+}
+
+.why {
+    grid-column: 2/3;
+}
+
 main {
     display: grid;
     gap: 35px;
@@ -85,6 +94,13 @@ footer {
     background-color: #fbf3e3;
     position: absolute;
     width: 100%;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /*-----------------slideshow-----------------*/
