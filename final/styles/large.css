@@ -3,4 +3,38 @@
         max-width: 1200px;
         margin: 0 auto;
     }
+
+    main {
+        max-width: 1350px;
+        margin: 45px auto;
+    }
+
+    footer {
+        bottom: 0;
+    }
+
+    .footerhome {
+        position: absolute;
+    }
+
+    .smoothieinfo {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+
+    th {
+        padding: 15px;
+        border: 1px solid #717171;
+    }
+
+    td {
+        padding: 15px;
+        border: 1px solid #717171;
+    }
+
+    iframe {
+        width: 650px;
+        height: 500px;
+    }
 }

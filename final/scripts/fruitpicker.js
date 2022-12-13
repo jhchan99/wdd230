@@ -88,7 +88,7 @@ function handleSubmit(event) {
 
 
 const form = document.querySelector('form');
-form.addEventListener('submit', handleSubmit, createTable);
+form.addEventListener('submit', handleSubmit, createTable, drinkCounter);
 
 
 function createTable(values) {
@@ -120,4 +120,9 @@ function createTable(values) {
 }
 
 
+count = 0;
 
+function drinkCounter() {
+    count += 1;
+    document.getElementById("drinkcount").innerHTML = count;
+};

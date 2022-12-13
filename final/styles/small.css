@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+p {
+    margin: 10px;
+}
+
+
 body {
     color: #553d39;
     font-family: "Barlow Semi Condensed", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -13,6 +18,18 @@ h2 {
     margin: 15px;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
+}
+
+.boxes {
+    border: 2px solid #8e665f;
+    border-radius: 5px;
+    padding: 23px;
+}
+
+iframe {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
 }
 
 
@@ -39,6 +56,10 @@ nav {
 
 .contacts p {
     margin-bottom: 5px;
+}
+
+.contacts img {
+    width: 50px;
 }
 
 header {
@@ -75,11 +96,14 @@ a {
 main {
     display: grid;
     gap: 35px;
-    margin: 15px;
+    margin: 15px auto;
 }
+
+
 
 button {
     background-color: #8e665f;
+    color: #fbf3e3;
     display: inline-block;
     border-radius: 20px;
     padding: 10px;
@@ -92,7 +116,7 @@ button a {
 
 footer {
     background-color: #fbf3e3;
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
@@ -111,6 +135,10 @@ footer {
     margin: auto;
     background-color: #717171;
     margin-bottom: 15px;
+}
+
+.slideshow {
+    margin: 0 auto;
 }
 
 .mySlides img {
@@ -285,17 +313,19 @@ form {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
+    margin: 15px;
+    justify-items: center;
 }
 
 form fieldset {
     margin: 2rem 0 2rem;
-    border: 1px solid #553d39;
+    border: 2px solid #8e665f;
     border-radius: 3px;
 }
 
 form legend {
     text-align: center;
-    color: #553d39;
+    color: #8e665f;
     margin: 1rem 1rem;
     padding: 0 0.5rem;
 }
@@ -304,7 +334,7 @@ form label.top,
 form div {
     display: block;
     padding: 1rem 0 0;
-    color: #553d39;
+    color: #8e665f;
     font-size: 21px;
 }
 
