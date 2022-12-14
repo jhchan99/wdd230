@@ -78,5 +78,9 @@
         grid-row: 3/4;
     }
 
+    footer {
+        flex-direction: row;
+    }
+
 
 }
