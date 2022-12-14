@@ -99,6 +99,10 @@ main {
     margin: 15px auto;
 }
 
+.smoothieinfo {
+    display: none;
+}
+
 
 
 button {
@@ -115,6 +119,10 @@ button a {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: #fbf3e3;
     position: relative;
     width: 100%;

@@ -72,8 +72,8 @@
         grid-column: 2/3;
     }
 
-
     .smoothieinfo {
+        display: block;
         grid-column: 1/3;
         grid-row: 3/4;
     }
