@@ -88,7 +88,7 @@ function handleSubmit(event) {
 
 
 const form = document.querySelector('form');
-form.addEventListener('submit', handleSubmit, createTable, drinkCounter);
+form.addEventListener('submit', handleSubmit, createTable, clickbutton);
 
 
 function createTable(values) {
@@ -120,9 +120,29 @@ function createTable(values) {
 }
 
 
-count = 0;
+// save counter element to a variable:
+var counterElement = document.getElementById('drinkcount');
 
-function drinkCounter() {
-    count += 1;
-    document.getElementById("drinkcount").innerHTML = count;
+// fetch drinkcount from localStorage
+var drinkcount = localStorage.getItem('drinkcount');
+
+// in case there is no value already in localStorage:
+if (!drinkcount) { drinkcount = 0; }
+
+// update the dom with the vale fetched from storage:
+counterElement.innerText = drinkcount * 5;
+
+// save drinkcount to localStorage whenever document is clicked
+var buttonClick = function (event) {
+    localStorage.setItem('drinkcount', drinkcount);
+    console.log(drinkcount)
 };
+
+document.onclick = buttonClick;
+
+// handle button clicks:
+function clickbutton() {
+    drinkcount++;
+    counterElement.innerHTML = drinkcount * 5;
+    console.log(drinkcount)
+}
