@@ -10,10 +10,10 @@ const tempDay2 = document.querySelector("#day2");
 const tempDay3 = document.querySelector("#day3");
 
 const url =
-    "https://api.openweathermap.org/data/2.5/weather?lat=46.2113&lon=-119.1372&appid=532c6642b652353eefe1bf815d1cc36a&units=Imperial";
+    "https://api.openweathermap.org/data/2.5/weather?lat=34.0522&lon=-118.2437&appid=532c6642b652353eefe1bf815d1cc36a&units=Imperial";
 
 const forecastURL =
-    "https://api.openweathermap.org/data/2.5/forecast?lat=46.2113&lon=-119.1372&appid=532c6642b652353eefe1bf815d1cc36a&units=Imperial";
+    "https://api.openweathermap.org/data/2.5/forecast?lat=34.0522&lon=-118.2437&appid=532c6642b652353eefe1bf815d1cc36a&units=Imperial";
 
 async function apiFetch() {
     try {

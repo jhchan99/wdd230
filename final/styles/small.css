@@ -42,6 +42,7 @@ nav {
     background-color: #fbf3e3;
 }
 
+
 .ham img {
     width: 50px;
 }
@@ -303,6 +304,13 @@ footer {
     background-color: #553d39;
 }
 
+.active {
+    padding: 5px 10px;
+    background-color: #553d3960;
+    display: inline-block;
+    border-radius: 20px;
+    color: #fbf3e3;
+}
 
 /*----------hambutton---------*/
 
